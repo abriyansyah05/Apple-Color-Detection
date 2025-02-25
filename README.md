@@ -48,8 +48,8 @@ The notebook performs the following tasks:
 Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/apple-maturity-detection.git
-cd apple-maturity-detection
+git clone https://github.com/yourusername/apple-maturity-detection.git](https://github.com/abriyansyah05/Apple-Color-Detection.git
+cd Apple-Color-Detection
 ```
 
 Install dependencies:
