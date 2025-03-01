@@ -1,0 +1,1130 @@
+
+muhab@MuhAbriYansyah MINGW64 ~ (master)
+$ cd "E:/Project"
+
+muhab@MuhAbriYansyah MINGW64 /e/Project
+$ git init "0_Apple Color Classification"
+Initialized empty Git repository in E:/Project/0_Apple Color Classification/.git/
+
+muhab@MuhAbriYansyah MINGW64 /e/Project
+$ git lfs install
+Git LFS initialized.
+
+muhab@MuhAbriYansyah MINGW64 /e/Project
+$ git lfs track ".pt"
+Not in a Git repository.
+
+muhab@MuhAbriYansyah MINGW64 /e/Project
+$ git add .gitattributes
+fatal: not a git repository (or any of the parent directories): .git
+
+muhab@MuhAbriYansyah MINGW64 /e/Project
+$ git add,
+git: 'add,' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+muhab@MuhAbriYansyah MINGW64 /e/Project
+$ git commit -m
+fatal: not a git repository (or any of the parent directories): .git
+
+muhab@MuhAbriYansyah MINGW64 /e/Project
+$ cd "0_Apple Color Classification"
+
+muhab@MuhAbriYansyah MINGW64 /e/Project/0_Apple Color Classification (master)
+$ gigit remote add origin https://github.com/abriyansyah05/Apple-Color-Detection.git
+bash: $'\302\226\302\226git': command not found
+
+muhab@MuhAbriYansyah MINGW64 /e/Project/0_Apple Color Classification (master)
+$ git remote add origin https://github.com/abriyansyah05/Apple-Color-Detection.git
+
+muhab@MuhAbriYansyah MINGW64 /e/Project/0_Apple Color Classification (master)
+$ git remote remove origin
+
+muhab@MuhAbriYansyah MINGW64 /e/Project/0_Apple Color Classification (master)
+$ git remote add origin https://github.com/abriyansyah05/Apple-Color-Detection.git
+
+muhab@MuhAbriYansyah MINGW64 /e/Project/0_Apple Color Classification (master)
+$ git branch -M main
+
+muhab@MuhAbriYansyah MINGW64 /e/Project/0_Apple Color Classification (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/abriyansyah05/Apple-Color-Detection.git'
+
+muhab@MuhAbriYansyah MINGW64 /e/Project/0_Apple Color Classification (main)
+$ cd "E:/Project/0_Apple Color Classification"
+
+muhab@MuhAbriYansyah MINGW64 /e/Project/0_Apple Color Classification (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        # Apple Color Classification with YOLOv8.md
+        .gitattributes
+        README.md
+        data/
+        notebooks/
+        requirements.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+muhab@MuhAbriYansyah MINGW64 /e/Project/0_Apple Color Classification (main)
+$ git init
+Reinitialized existing Git repository in E:/Project/0_Apple Color Classification/.git/
+
+muhab@MuhAbriYansyah MINGW64 /e/Project/0_Apple Color Classification (main)
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+muhab@MuhAbriYansyah MINGW64 /e/Project/0_Apple Color Classification (main)
+$ git commit -m "Initial commit"
+[main (root-commit) 9e25845] Initial commit
+ 983 files changed, 6477 insertions(+)
+ create mode 100644 # Apple Color Classification with YOLOv8.md
+ create mode 100644 .gitattributes
+ create mode 100644 README.md
+ create mode 100644 data/classify/README.dataset.txt
+ create mode 100644 data/classify/README.roboflow.txt
+ create mode 100644 data/classify/data.yaml
+ create mode 100644 data/classify/processed/.gitkeep
+ create mode 100644 data/classify/processed/green_1.jpg
+ create mode 100644 data/classify/processed/green_2.jpg
+ create mode 100644 data/classify/processed/processed_classify1.jpeg
+ create mode 100644 data/classify/processed/red_1.jpg
+ create mode 100644 data/classify/processed/red_10.jpg
+ create mode 100644 data/classify/processed/red_11.jpg
+ create mode 100644 data/classify/processed/red_2.jpg
+ create mode 100644 data/classify/processed/red_3.jpg
+ create mode 100644 data/classify/processed/red_4.jpg
+ create mode 100644 data/classify/processed/red_5.jpg
+ create mode 100644 data/classify/processed/red_6.jpg
+ create mode 100644 data/classify/processed/red_7.jpg
+ create mode 100644 data/classify/processed/red_8.jpg
+ create mode 100644 data/classify/processed/red_9.jpg
+ create mode 100644 data/classify/processed/yellow_1.jpg
+ create mode 100644 data/classify/processed/yellow_10.jpg
+ create mode 100644 data/classify/processed/yellow_11.jpg
+ create mode 100644 data/classify/processed/yellow_2.jpg
+ create mode 100644 data/classify/processed/yellow_3.jpg
+ create mode 100644 data/classify/processed/yellow_4.jpg
+ create mode 100644 data/classify/processed/yellow_5.jpg
+ create mode 100644 data/classify/processed/yellow_6.jpg
+ create mode 100644 data/classify/processed/yellow_7.jpg
+ create mode 100644 data/classify/processed/yellow_8.jpg
+ create mode 100644 data/classify/processed/yellow_9.jpg
+ create mode 100644 data/classify/raw/classify1.jpeg
+ create mode 100644 data/classify/test/images/102_jpg.rf.35fa1e8fb31790caeeb01fbe43391beb.jpg
+ create mode 100644 data/classify/test/images/105_jpg.rf.791d5187272533da22c485244b0cd63b.jpg
+ create mode 100644 data/classify/test/images/118_jpg.rf.e971c0032191883e4054bf06da1a37cf.jpg
+ create mode 100644 data/classify/test/images/131_jpg.rf.954397a304c50fdfd147e54dfa025d80.jpg
+ create mode 100644 data/classify/test/images/152_jpg.rf.a9c4ba9a8fc64c27db8c60a7dcb29d2d.jpg
+ create mode 100644 data/classify/test/images/15_jpg.rf.39ea5bbf18e45dff896c39a2af98236b.jpg
+ create mode 100644 data/classify/test/images/163_jpg.rf.b7a3784f1f8100046a9cd048000982f1.jpg
+ create mode 100644 data/classify/test/images/193_jpg.rf.68f6fc388efbd0dadb6828351dee0f2a.jpg
+ create mode 100644 data/classify/test/images/202_jpg.rf.2e1299c8d576950fc64b7ee86c356232.jpg
+ create mode 100644 data/classify/test/images/214_jpg.rf.27bc2a7cabf237b071ca3de3fec55211.jpg
+ create mode 100644 data/classify/test/images/231_jpg.rf.9b7d3176e3a6a53e3a225cfeb54e5fe0.jpg
+ create mode 100644 data/classify/test/images/235_jpg.rf.319c1b6982ef633a3b4433b0a5aaebb3.jpg
+ create mode 100644 data/classify/test/images/247_jpg.rf.05e3b080c892204ad07f8eb07be17bad.jpg
+ create mode 100644 data/classify/test/images/251_jpg.rf.38a87cda17318b9be986088d0b8a7795.jpg
+ create mode 100644 data/classify/test/images/265_jpg.rf.81d5a73d230caeb2929b24fed75bcfaa.jpg
+ create mode 100644 data/classify/test/images/274_jpg.rf.c93ec4727ebd00c88e065123fcf0f961.jpg
+ create mode 100644 data/classify/test/images/298_jpg.rf.ad4f1ea34b9c58d34c4e54e492151bd6.jpg
+ create mode 100644 data/classify/test/images/304_jpg.rf.813336c551953e129184a6fa58f7d0f3.jpg
+ create mode 100644 data/classify/test/images/315_jpg.rf.c99480d6741cfc54e4f0db67e6a34ee7.jpg
+ create mode 100644 data/classify/test/images/317_jpg.rf.34cd3b71a1fe23c1d3469a390297c1b7.jpg
+ create mode 100644 data/classify/test/images/31_jpg.rf.4d8c1f1229ebde9019d55010cbd13705.jpg
+ create mode 100644 data/classify/test/images/32_jpg.rf.2708e53a29b005218ab2890c65c46d87.jpg
+ create mode 100644 data/classify/test/images/330_jpg.rf.48e412f2f7ffdbc6831b3ba10466edfa.jpg
+ create mode 100644 data/classify/test/images/332_jpg.rf.edde6289a287a5880ada3945e51ce0bd.jpg
+ create mode 100644 data/classify/test/images/34_jpg.rf.f30a170286ca19b78cac4a454d8be3f9.jpg
+ create mode 100644 data/classify/test/images/36_jpg.rf.535121eeb0c7be9bfa3352764eb2c2af.jpg
+ create mode 100644 data/classify/test/images/39_jpg.rf.d7104cee0c5e4d0e1c4464427502f353.jpg
+ create mode 100644 data/classify/test/images/42_jpg.rf.0147ecb82e037924fe955904dfc96f46.jpg
+ create mode 100644 data/classify/test/images/54_jpg.rf.0bf3c35758d86e9f753d9dd7131d2f56.jpg
+ create mode 100644 data/classify/test/images/55_jpg.rf.fc7c89713c24f174a57a8d5cf8334ad0.jpg
+ create mode 100644 data/classify/test/images/56_jpg.rf.0e072359709f9cce9be59fbef45791e8.jpg
+ create mode 100644 data/classify/test/images/59_jpg.rf.f9075d2a2962454b0d7e4aedb06b30bc.jpg
+ create mode 100644 data/classify/test/images/5_jpg.rf.f1cc70829befc5c9dbc4d298353c5334.jpg
+ create mode 100644 data/classify/test/images/62_jpg.rf.3dd0e46bdba68815772d1af5b0a5ea11.jpg
+ create mode 100644 data/classify/test/images/77_jpg.rf.2831fe2f9afc735e57e88ca50118ec3a.jpg
+ create mode 100644 data/classify/test/images/78_jpg.rf.cbea00833d82f752d1b8170dffe139c1.jpg
+ create mode 100644 data/classify/test/images/80_jpg.rf.321b89018a41ca52ab2fba0aadb4571c.jpg
+ create mode 100644 data/classify/test/images/81_jpg.rf.7964adb50212fec34abb7decf635da20.jpg
+ create mode 100644 data/classify/test/images/8_jpg.rf.c1a56eceea9b8e480dbcd32ba400cb18.jpg
+ create mode 100644 data/classify/test/images/96_jpg.rf.85f6b485909f17aefd130878034a98b2.jpg
+ create mode 100644 data/classify/test/images/9_jpg.rf.01bc807dbcf25c09f13dd2831654175b.jpg
+ create mode 100644 data/classify/test/images/9_jpg.rf.189df5cfa467fb4451d9d96d3ff2f23c.jpg
+ create mode 100644 data/classify/test/labels/102_jpg.rf.35fa1e8fb31790caeeb01fbe43391beb.txt
+ create mode 100644 data/classify/test/labels/105_jpg.rf.791d5187272533da22c485244b0cd63b.txt
+ create mode 100644 data/classify/test/labels/118_jpg.rf.e971c0032191883e4054bf06da1a37cf.txt
+ create mode 100644 data/classify/test/labels/131_jpg.rf.954397a304c50fdfd147e54dfa025d80.txt
+ create mode 100644 data/classify/test/labels/152_jpg.rf.a9c4ba9a8fc64c27db8c60a7dcb29d2d.txt
+ create mode 100644 data/classify/test/labels/15_jpg.rf.39ea5bbf18e45dff896c39a2af98236b.txt
+ create mode 100644 data/classify/test/labels/163_jpg.rf.b7a3784f1f8100046a9cd048000982f1.txt
+ create mode 100644 data/classify/test/labels/193_jpg.rf.68f6fc388efbd0dadb6828351dee0f2a.txt
+ create mode 100644 data/classify/test/labels/202_jpg.rf.2e1299c8d576950fc64b7ee86c356232.txt
+ create mode 100644 data/classify/test/labels/214_jpg.rf.27bc2a7cabf237b071ca3de3fec55211.txt
+ create mode 100644 data/classify/test/labels/231_jpg.rf.9b7d3176e3a6a53e3a225cfeb54e5fe0.txt
+ create mode 100644 data/classify/test/labels/235_jpg.rf.319c1b6982ef633a3b4433b0a5aaebb3.txt
+ create mode 100644 data/classify/test/labels/247_jpg.rf.05e3b080c892204ad07f8eb07be17bad.txt
+ create mode 100644 data/classify/test/labels/251_jpg.rf.38a87cda17318b9be986088d0b8a7795.txt
+ create mode 100644 data/classify/test/labels/265_jpg.rf.81d5a73d230caeb2929b24fed75bcfaa.txt
+ create mode 100644 data/classify/test/labels/274_jpg.rf.c93ec4727ebd00c88e065123fcf0f961.txt
+ create mode 100644 data/classify/test/labels/298_jpg.rf.ad4f1ea34b9c58d34c4e54e492151bd6.txt
+ create mode 100644 data/classify/test/labels/304_jpg.rf.813336c551953e129184a6fa58f7d0f3.txt
+ create mode 100644 data/classify/test/labels/315_jpg.rf.c99480d6741cfc54e4f0db67e6a34ee7.txt
+ create mode 100644 data/classify/test/labels/317_jpg.rf.34cd3b71a1fe23c1d3469a390297c1b7.txt
+ create mode 100644 data/classify/test/labels/31_jpg.rf.4d8c1f1229ebde9019d55010cbd13705.txt
+ create mode 100644 data/classify/test/labels/32_jpg.rf.2708e53a29b005218ab2890c65c46d87.txt
+ create mode 100644 data/classify/test/labels/330_jpg.rf.48e412f2f7ffdbc6831b3ba10466edfa.txt
+ create mode 100644 data/classify/test/labels/332_jpg.rf.edde6289a287a5880ada3945e51ce0bd.txt
+ create mode 100644 data/classify/test/labels/34_jpg.rf.f30a170286ca19b78cac4a454d8be3f9.txt
+ create mode 100644 data/classify/test/labels/36_jpg.rf.535121eeb0c7be9bfa3352764eb2c2af.txt
+ create mode 100644 data/classify/test/labels/39_jpg.rf.d7104cee0c5e4d0e1c4464427502f353.txt
+ create mode 100644 data/classify/test/labels/42_jpg.rf.0147ecb82e037924fe955904dfc96f46.txt
+ create mode 100644 data/classify/test/labels/54_jpg.rf.0bf3c35758d86e9f753d9dd7131d2f56.txt
+ create mode 100644 data/classify/test/labels/55_jpg.rf.fc7c89713c24f174a57a8d5cf8334ad0.txt
+ create mode 100644 data/classify/test/labels/56_jpg.rf.0e072359709f9cce9be59fbef45791e8.txt
+ create mode 100644 data/classify/test/labels/59_jpg.rf.f9075d2a2962454b0d7e4aedb06b30bc.txt
+ create mode 100644 data/classify/test/labels/5_jpg.rf.f1cc70829befc5c9dbc4d298353c5334.txt
+ create mode 100644 data/classify/test/labels/62_jpg.rf.3dd0e46bdba68815772d1af5b0a5ea11.txt
+ create mode 100644 data/classify/test/labels/77_jpg.rf.2831fe2f9afc735e57e88ca50118ec3a.txt
+ create mode 100644 data/classify/test/labels/78_jpg.rf.cbea00833d82f752d1b8170dffe139c1.txt
+ create mode 100644 data/classify/test/labels/80_jpg.rf.321b89018a41ca52ab2fba0aadb4571c.txt
+ create mode 100644 data/classify/test/labels/81_jpg.rf.7964adb50212fec34abb7decf635da20.txt
+ create mode 100644 data/classify/test/labels/8_jpg.rf.c1a56eceea9b8e480dbcd32ba400cb18.txt
+ create mode 100644 data/classify/test/labels/96_jpg.rf.85f6b485909f17aefd130878034a98b2.txt
+ create mode 100644 data/classify/test/labels/9_jpg.rf.01bc807dbcf25c09f13dd2831654175b.txt
+ create mode 100644 data/classify/test/labels/9_jpg.rf.189df5cfa467fb4451d9d96d3ff2f23c.txt
+ create mode 100644 data/classify/train/images/100_jpg.rf.4b0956cb95a20c7087550a20877dbf5e.jpg
+ create mode 100644 data/classify/train/images/101_jpg.rf.1200cac27775e0fa475ab1998c83b7c5.jpg
+ create mode 100644 data/classify/train/images/103_jpg.rf.5b26985199fb7142c6e1ca0d1db83471.jpg
+ create mode 100644 data/classify/train/images/104_jpg.rf.4f3b3950e80bd5adc50bec546b64075c.jpg
+ create mode 100644 data/classify/train/images/107_jpg.rf.0881d3e2b6799fd30e8da989d22ea681.jpg
+ create mode 100644 data/classify/train/images/108_jpg.rf.f7cfdb5190de59f51935df30e071dba1.jpg
+ create mode 100644 data/classify/train/images/109_jpg.rf.aa6996e085ceee5f002af4de957e175c.jpg
+ create mode 100644 data/classify/train/images/10_jpg.rf.63273b04c9844f3774e92ccb18893cb3.jpg
+ create mode 100644 data/classify/train/images/10_jpg.rf.7e423b4ae86f41ca42259c6c15e04346.jpg
+ create mode 100644 data/classify/train/images/10_jpg.rf.d1c873be5802d2155b1860870d5faec5.jpg
+ create mode 100644 data/classify/train/images/110_jpg.rf.534dfcc10cc6595c4e53da7711ccac52.jpg
+ create mode 100644 data/classify/train/images/112_jpg.rf.402a14db54d7fe88b7093d9eac1f409f.jpg
+ create mode 100644 data/classify/train/images/114_jpg.rf.cde822fb1559ea5ef15fe2fb114e41bb.jpg
+ create mode 100644 data/classify/train/images/117_jpg.rf.8520b9b92552ca3e13a19ee52f19e1bd.jpg
+ create mode 100644 data/classify/train/images/11_jpg.rf.47ed0f635da30bea02efad1b5021bbde.jpg
+ create mode 100644 data/classify/train/images/11_jpg.rf.f73a822dae5eafafd0999376bd55d2e3.jpg
+ create mode 100644 data/classify/train/images/120_jpg.rf.c4cea32c31476f33c1a9a009cdb4bc33.jpg
+ create mode 100644 data/classify/train/images/121_jpg.rf.e0cf619cb8efeacacca11ca31f5a4709.jpg
+ create mode 100644 data/classify/train/images/122_jpg.rf.4a0d8b7d14db3ba214613cf7bf3820c9.jpg
+ create mode 100644 data/classify/train/images/123_jpg.rf.ac4ec1fa9f69852841104f1073cf4017.jpg
+ create mode 100644 data/classify/train/images/125_jpg.rf.ca4948335d5615eb47fac1239a9612ee.jpg
+ create mode 100644 data/classify/train/images/126_jpg.rf.893077d08c809e00bc2abbdfbb70d872.jpg
+ create mode 100644 data/classify/train/images/127_jpg.rf.8661cb0428f8133a809b3e0415d67923.jpg
+ create mode 100644 data/classify/train/images/128_jpg.rf.135ed5b10f21bf45355dabaa163cd0e0.jpg
+ create mode 100644 data/classify/train/images/129_jpg.rf.82bf929ff1e0b1d531debfa68f3b4028.jpg
+ create mode 100644 data/classify/train/images/12_jpg.rf.4e23bdccf2699c2bf53b0303eeb47057.jpg
+ create mode 100644 data/classify/train/images/12_jpg.rf.b2bd2805234b95e2ff016686f32ebdad.jpg
+ create mode 100644 data/classify/train/images/130_jpg.rf.72aee177d0527d6e81e974cd056a1333.jpg
+ create mode 100644 data/classify/train/images/132_jpg.rf.d0288288619a63415f8b2d4751c4fb00.jpg
+ create mode 100644 data/classify/train/images/133_jpg.rf.28bc828746c0045070c3650e3b874b98.jpg
+ create mode 100644 data/classify/train/images/134_jpg.rf.83a93f56682ee171fc0e8f5f72ee2a23.jpg
+ create mode 100644 data/classify/train/images/135_jpg.rf.ac7cd04cc37477b16f240622adb1b692.jpg
+ create mode 100644 data/classify/train/images/136_jpg.rf.669080d92757453981b29f3954f6176b.jpg
+ create mode 100644 data/classify/train/images/137_jpg.rf.585fcffbf49d94e220f483b175a4812a.jpg
+ create mode 100644 data/classify/train/images/138_jpg.rf.be43f9dd3a2cd10bf6d4fd453cb30f60.jpg
+ create mode 100644 data/classify/train/images/139_jpg.rf.4be830b63c06963c9aa2c75448ba2b5e.jpg
+ create mode 100644 data/classify/train/images/13_jpg.rf.1024da650a652495fa151ef67aec782f.jpg
+ create mode 100644 data/classify/train/images/13_jpg.rf.88884df23b716ef000071920eeffa995.jpg
+ create mode 100644 data/classify/train/images/13_jpg.rf.e451affd6b871cbcf3e515f87b89c791.jpg
+ create mode 100644 data/classify/train/images/142_jpg.rf.c1b7583bca6e0e0a5c512cb33c2ce198.jpg
+ create mode 100644 data/classify/train/images/143_jpg.rf.72d09ab0599e41fe77e25d792acd206d.jpg
+ create mode 100644 data/classify/train/images/144_jpg.rf.cf11b0d37c2b5b656ac2fc6168c6b1df.jpg
+ create mode 100644 data/classify/train/images/145_jpg.rf.c97ae9d38226b119138d3ff22ba3fa0c.jpg
+ create mode 100644 data/classify/train/images/147_jpg.rf.8f7f7821d265b658bb040373536e0975.jpg
+ create mode 100644 data/classify/train/images/148_jpg.rf.215d20d5a4ec108d4e3af803113d6dd5.jpg
+ create mode 100644 data/classify/train/images/14_jpg.rf.e4147036046146ac15a41207bc585eac.jpg
+ create mode 100644 data/classify/train/images/14_jpg.rf.ffc77631c716b6f330bef4930ab4088b.jpg
+ create mode 100644 data/classify/train/images/151_jpg.rf.2a9a45736c4e33806734eb39796d5886.jpg
+ create mode 100644 data/classify/train/images/153_jpg.rf.86d7725b94d90e468499ee2f036748b5.jpg
+ create mode 100644 data/classify/train/images/154_jpg.rf.56159d1be8183d0c3199fd6af407bb3b.jpg
+ create mode 100644 data/classify/train/images/155_jpg.rf.a26be87d91c0e7670521fafbd93cf78c.jpg
+ create mode 100644 data/classify/train/images/156_jpg.rf.83df957a65a17ff0c1571fe766393bc8.jpg
+ create mode 100644 data/classify/train/images/157_jpg.rf.487cb7d8086379cfd1859e31476ca139.jpg
+ create mode 100644 data/classify/train/images/158_jpg.rf.891cd2e969d836f99f8549ef6b8c1794.jpg
+ create mode 100644 data/classify/train/images/159_jpg.rf.24b7b21dc5de22a15f29c90994018ea8.jpg
+ create mode 100644 data/classify/train/images/15_jpg.rf.375552c729294100dc91c0e94d35747c.jpg
+ create mode 100644 data/classify/train/images/15_jpg.rf.6430dff0c90c4d9cc4dbaad0b15f4dd3.jpg
+ create mode 100644 data/classify/train/images/160_jpg.rf.262845c0f6dbc88ca6f85e8dcd57d6c8.jpg
+ create mode 100644 data/classify/train/images/161_jpg.rf.830d7a7ac8d24539e89da2f97724d854.jpg
+ create mode 100644 data/classify/train/images/164_jpg.rf.d09ba169a28174e3bddf5ffe25e6718e.jpg
+ create mode 100644 data/classify/train/images/165_jpg.rf.b4fd20487c074e24fa1690f89c2a8214.jpg
+ create mode 100644 data/classify/train/images/169_jpg.rf.fa480166c0f55534590f969fbd5978fe.jpg
+ create mode 100644 data/classify/train/images/16_jpg.rf.312579fa09254e0c387fcf3932650390.jpg
+ create mode 100644 data/classify/train/images/16_jpg.rf.cf3f17609c5edd58cc44192295d35352.jpg
+ create mode 100644 data/classify/train/images/16_jpg.rf.e8ee42b3acaff6bc8ac0c1198aca16e5.jpg
+ create mode 100644 data/classify/train/images/170_jpg.rf.672a8f5ce1dd9125cc33edc759402e06.jpg
+ create mode 100644 data/classify/train/images/172_jpg.rf.5a09bdcfdbce8ad48c33b544cc53c2dd.jpg
+ create mode 100644 data/classify/train/images/174_jpg.rf.eaaa8b4cc5e9e963f066dcba41b602e5.jpg
+ create mode 100644 data/classify/train/images/175_jpg.rf.5f33be8e5ee5e6e57ca12715d51adf16.jpg
+ create mode 100644 data/classify/train/images/179_jpg.rf.1b6bf71125826c8c2295e038069deb75.jpg
+ create mode 100644 data/classify/train/images/17_jpg.rf.03840c8962c146b5bdb0d0401ecfefc8.jpg
+ create mode 100644 data/classify/train/images/180_jpg.rf.32c16aeee659deab1c6ffd06affd8b30.jpg
+ create mode 100644 data/classify/train/images/181_jpg.rf.c0a8006f8a02d85b236f54dd0fc18818.jpg
+ create mode 100644 data/classify/train/images/183_jpg.rf.2d067dcc41016b87aa14590ba8ad7e61.jpg
+ create mode 100644 data/classify/train/images/184_jpg.rf.669b8dad3c9febcb069f93de6e8982f4.jpg
+ create mode 100644 data/classify/train/images/185_jpg.rf.3fe2001aa7dc6be706d3c0a71585af8e.jpg
+ create mode 100644 data/classify/train/images/186_jpg.rf.91f276d8243001a11764cb1e5674ea87.jpg
+ create mode 100644 data/classify/train/images/187_jpg.rf.43c11c4b2606c4ceca26fff3ccdaecc7.jpg
+ create mode 100644 data/classify/train/images/188_jpg.rf.282f3a597982780e1d8f6a5d5fa614e5.jpg
+ create mode 100644 data/classify/train/images/189_jpg.rf.cf54e5bde42d40a66e94e5cdfcb5bd38.jpg
+ create mode 100644 data/classify/train/images/18_jpg.rf.1829ee0373aa73a8661682fc1e5ef1b0.jpg
+ create mode 100644 data/classify/train/images/190_jpg.rf.7bf9d8af77d8ac207aa851c571291e44.jpg
+ create mode 100644 data/classify/train/images/191_jpg.rf.7816f14aafa5993f96de372a846acd4c.jpg
+ create mode 100644 data/classify/train/images/194_jpg.rf.f0b98efbaa8fd3ebed3e537b127f39de.jpg
+ create mode 100644 data/classify/train/images/195_jpg.rf.05803177e632f1eff5aa7d2c151ef573.jpg
+ create mode 100644 data/classify/train/images/197_jpg.rf.c11359c7dc50d31bdec4e0b4c142dc48.jpg
+ create mode 100644 data/classify/train/images/19_jpg.rf.14a13724eb7d378f88406b794478208d.jpg
+ create mode 100644 data/classify/train/images/1_jpg.rf.ae5ecc3d2c03e9f7112cf839637ee05a.jpg
+ create mode 100644 data/classify/train/images/1_jpg.rf.df362b2157ab685410e71eb4a62dd7de.jpg
+ create mode 100644 data/classify/train/images/1_jpg.rf.ffc90dd1e0d2ca63cf521fdd3df27c90.jpg
+ create mode 100644 data/classify/train/images/200_jpg.rf.a8becee1279e6338da63903d450f5a8f.jpg
+ create mode 100644 data/classify/train/images/201_jpg.rf.65543487fecbae72e5e44c5242fc2fa3.jpg
+ create mode 100644 data/classify/train/images/203_jpg.rf.b427fb0b4bdc09b4a9f19a2fe159829a.jpg
+ create mode 100644 data/classify/train/images/204_jpg.rf.07f64a51e7a0ebe076657d7d2f865223.jpg
+ create mode 100644 data/classify/train/images/206_jpg.rf.30e83faa0f9d67ce69c9c8adea087de0.jpg
+ create mode 100644 data/classify/train/images/209_jpg.rf.3378062cf8856b6337505fa5b5263d24.jpg
+ create mode 100644 data/classify/train/images/20_jpg.rf.77282c405cad1cfce8ff6780a0fa7d06.jpg
+ create mode 100644 data/classify/train/images/211_jpg.rf.eedd9a4cb8f155e6cee55862649d56ea.jpg
+ create mode 100644 data/classify/train/images/212_jpg.rf.0c2ef4227be70fbe2b401568a35baac2.jpg
+ create mode 100644 data/classify/train/images/213_jpg.rf.38df41a0c8aadc496a9a41de4fb32075.jpg
+ create mode 100644 data/classify/train/images/215_jpg.rf.0acbd37bbdbc84a10144ac7d835d48ac.jpg
+ create mode 100644 data/classify/train/images/217_jpg.rf.3e3b2410bbef5297bfed332b6416bb39.jpg
+ create mode 100644 data/classify/train/images/219_jpg.rf.62c6b8b17b3518a7ef81c07015246dc5.jpg
+ create mode 100644 data/classify/train/images/21_jpg.rf.e345da9aa885f9064e296c81d3af3e04.jpg
+ create mode 100644 data/classify/train/images/220_jpg.rf.c70a1eb01e855c0d81aee0c9854874c6.jpg
+ create mode 100644 data/classify/train/images/221_jpg.rf.74c90954642ed12a79e1af214bcdf49e.jpg
+ create mode 100644 data/classify/train/images/223_jpg.rf.b18dffd23407a137626fee9d23c021e5.jpg
+ create mode 100644 data/classify/train/images/224_jpg.rf.acc31435e58d1603bed3b326bc3791f4.jpg
+ create mode 100644 data/classify/train/images/226_jpg.rf.c6f808f728e3dbc492715a722882f145.jpg
+ create mode 100644 data/classify/train/images/227_jpg.rf.7a00b66a3c2b37362dbce54034bb3175.jpg
+ create mode 100644 data/classify/train/images/228_jpg.rf.81944b2a4e192316ee5331cb0d9f766c.jpg
+ create mode 100644 data/classify/train/images/229_jpg.rf.59567baa150d7568eb1ff321bc1ede61.jpg
+ create mode 100644 data/classify/train/images/22_jpg.rf.3bd154adf0dcc858680ceac318b7b100.jpg
+ create mode 100644 data/classify/train/images/22_jpg.rf.d6e4143d3978e55554fe8eb578bc549f.jpg
+ create mode 100644 data/classify/train/images/230_jpg.rf.a3a04ef06a73916b6c9d24b58e53c3d6.jpg
+ create mode 100644 data/classify/train/images/232_jpg.rf.8c267ba3555c5ee7eb478aadcaacf233.jpg
+ create mode 100644 data/classify/train/images/233_jpg.rf.18ffbeb73b4903c0f278ef7377e8b83a.jpg
+ create mode 100644 data/classify/train/images/234_jpg.rf.faba5d6933c47534900e93526b194be7.jpg
+ create mode 100644 data/classify/train/images/236_jpg.rf.06f585d1c3242c8fefd387470f2248f6.jpg
+ create mode 100644 data/classify/train/images/237_jpg.rf.c059298703eaa5fa711b69dd23e644c9.jpg
+ create mode 100644 data/classify/train/images/238_jpg.rf.f60b5d339009a06d2c7cba3d4cb72a8d.jpg
+ create mode 100644 data/classify/train/images/239_jpg.rf.67912253ae08b432e02efc8c329b7d2c.jpg
+ create mode 100644 data/classify/train/images/23_jpg.rf.5ed07f23d1eef38fb472b5362031246a.jpg
+ create mode 100644 data/classify/train/images/23_jpg.rf.78bb1e72f9933fedab5122bcc87f573e.jpg
+ create mode 100644 data/classify/train/images/240_jpg.rf.fdaa070b6449db23415e38c073fd7e44.jpg
+ create mode 100644 data/classify/train/images/241_jpg.rf.9f449dfb426734a081473c24dd2ab2b4.jpg
+ create mode 100644 data/classify/train/images/243_jpg.rf.c1b60ce6982896f7a489559bc7dde101.jpg
+ create mode 100644 data/classify/train/images/244_jpg.rf.1ea4d3bf05dc5a9ffd9b23baf52c4070.jpg
+ create mode 100644 data/classify/train/images/245_jpg.rf.aebbdf50aff88e2abccbe0f0eb6263ab.jpg
+ create mode 100644 data/classify/train/images/248_jpg.rf.5472cd216b661b2f4aacb4c5167f19d0.jpg
+ create mode 100644 data/classify/train/images/24_jpg.rf.6b835a9134fd3768db128b7be82ca7fc.jpg
+ create mode 100644 data/classify/train/images/250_jpg.rf.5aca1c4f47ccfceaaf69df7abca2d522.jpg
+ create mode 100644 data/classify/train/images/252_jpg.rf.a227e13e308391dd8f23faa5b0a7d954.jpg
+ create mode 100644 data/classify/train/images/253_jpg.rf.7d9bf4b2b61944dedad79b2559af64df.jpg
+ create mode 100644 data/classify/train/images/254_jpg.rf.0921d0cec5a29005c5de584d275f67ac.jpg
+ create mode 100644 data/classify/train/images/255_jpg.rf.2966192ef23d528aa8d9a390a6e012f0.jpg
+ create mode 100644 data/classify/train/images/256_jpg.rf.f723724a61a6c82a7fa9c2cf8253ef0d.jpg
+ create mode 100644 data/classify/train/images/257_jpg.rf.5f75823448ba889a64dc4a0fe5911dac.jpg
+ create mode 100644 data/classify/train/images/258_jpg.rf.e0c978871b16a2883d63242d741b2d64.jpg
+ create mode 100644 data/classify/train/images/25_jpg.rf.1416cb46a68d30b6205bb015d0729969.jpg
+ create mode 100644 data/classify/train/images/261_jpg.rf.8cb4ab9c80854dc34785861df9f68beb.jpg
+ create mode 100644 data/classify/train/images/263_jpg.rf.492c7c7d13670cde59c6989d4ef87245.jpg
+ create mode 100644 data/classify/train/images/264_jpg.rf.e875bf6d8a9b8b31772ba17bab8c6e7e.jpg
+ create mode 100644 data/classify/train/images/268_jpg.rf.4dce905d8120b87ac31ba6b260150cb2.jpg
+ create mode 100644 data/classify/train/images/26_jpg.rf.348da2121d916ddb39e1d69d04cafeb4.jpg
+ create mode 100644 data/classify/train/images/270_jpg.rf.0008c859240ffb804898092483c76812.jpg
+ create mode 100644 data/classify/train/images/271_jpg.rf.625c6a9dd9a0dfdff68d4463d4a377f1.jpg
+ create mode 100644 data/classify/train/images/273_jpg.rf.9af41afd38cc50da97b84df9ea6cc984.jpg
+ create mode 100644 data/classify/train/images/275_jpg.rf.fc02b0ad2111dabc0d4c6ce71b40de4f.jpg
+ create mode 100644 data/classify/train/images/277_jpg.rf.567d794822dcf86f5adc3a0d3b8dec41.jpg
+ create mode 100644 data/classify/train/images/278_jpg.rf.e3b66f69959c201721c24395dfa63b08.jpg
+ create mode 100644 data/classify/train/images/27_jpg.rf.79c73f9181995e08d3967f2135d1d992.jpg
+ create mode 100644 data/classify/train/images/27_jpg.rf.a0684ce3994eea09d4d616082bb33540.jpg
+ create mode 100644 data/classify/train/images/280_jpg.rf.7ce3d89667216d25a933ab989e660829.jpg
+ create mode 100644 data/classify/train/images/281_jpg.rf.2e21935526ac6f292cea600b3f98acfa.jpg
+ create mode 100644 data/classify/train/images/282_jpg.rf.b59644ebd706c8761d7537bf5ff19126.jpg
+ create mode 100644 data/classify/train/images/285_jpg.rf.8155eddb47fb1f33b8fba9ba3d33a129.jpg
+ create mode 100644 data/classify/train/images/287_jpg.rf.3d26d7c4de5f9927dc37ceddd71fd500.jpg
+ create mode 100644 data/classify/train/images/288_jpg.rf.e4ef3aca5ec0612776ef0fb770e849a2.jpg
+ create mode 100644 data/classify/train/images/289_jpg.rf.75247f435924b997d3fbc49ea050907b.jpg
+ create mode 100644 data/classify/train/images/28_jpg.rf.1c8a5f5b80dfea1bf9f1fb0e0bf3b8c7.jpg
+ create mode 100644 data/classify/train/images/28_jpg.rf.5c4d30cce505fc16784a3afa50025c5a.jpg
+ create mode 100644 data/classify/train/images/290_jpg.rf.054ae6c452493a0a89f752b634ce07e8.jpg
+ create mode 100644 data/classify/train/images/291_jpg.rf.efb2e6da5aa59276b2bde8349bf7811b.jpg
+ create mode 100644 data/classify/train/images/292_jpg.rf.4661df453ea96ceaa328523ad33acfce.jpg
+ create mode 100644 data/classify/train/images/293_jpg.rf.91fdd08f62c9a51d874024a0ae046e5a.jpg
+ create mode 100644 data/classify/train/images/294_jpg.rf.e56c8145078f8b16e0b6cb739ebf634c.jpg
+ create mode 100644 data/classify/train/images/295_jpg.rf.befe0b1bfb427f5011abc89016d31c89.jpg
+ create mode 100644 data/classify/train/images/296_jpg.rf.a8821dca09407e74c66dac0543fa808c.jpg
+ create mode 100644 data/classify/train/images/29_jpg.rf.2a69e776844806ab5e3c696bbde4103a.jpg
+ create mode 100644 data/classify/train/images/2_jpg.rf.5ff8eb6e210ec9a80d6fe16012472223.jpg
+ create mode 100644 data/classify/train/images/300_jpg.rf.a52d767278003b2c78be1821e26b7e69.jpg
+ create mode 100644 data/classify/train/images/301_jpg.rf.26dd93dc6fe10dabdadca8a8b7f82cdd.jpg
+ create mode 100644 data/classify/train/images/303_jpg.rf.bef20bad06c8820d91ec0a8bf543a877.jpg
+ create mode 100644 data/classify/train/images/306_jpg.rf.9b4ced1e9b0fe1b586d6574e5bc0565c.jpg
+ create mode 100644 data/classify/train/images/308_jpg.rf.4c6d164da9830dacf7e00f137e4ee254.jpg
+ create mode 100644 data/classify/train/images/309_jpg.rf.77d35e2eefbfbc10b8cd2ef14cd5be56.jpg
+ create mode 100644 data/classify/train/images/30_jpg.rf.b8966604401ee970148923eb468a7290.jpg
+ create mode 100644 data/classify/train/images/310_jpg.rf.be53a0e68e7188c7e661291ceb5c30ad.jpg
+ create mode 100644 data/classify/train/images/311_jpg.rf.9c4f72854cb2efaf104d1f50d3b6065d.jpg
+ create mode 100644 data/classify/train/images/312_jpg.rf.0fc6db0c85f564afc6971c4c25c4496c.jpg
+ create mode 100644 data/classify/train/images/313_jpg.rf.93780431181b1aa8718f9fa48dfc515e.jpg
+ create mode 100644 data/classify/train/images/314_jpg.rf.41a31b697f567cfa17ce5557e2cb3a04.jpg
+ create mode 100644 data/classify/train/images/318_jpg.rf.346369bde2621bfd619ec91971216964.jpg
+ create mode 100644 data/classify/train/images/319_jpg.rf.3e207c8374c20e8f1cd75695c9df3d29.jpg
+ create mode 100644 data/classify/train/images/31_jpg.rf.bf923d3fae6ec358922eb2c426953ef2.jpg
+ create mode 100644 data/classify/train/images/321_jpg.rf.b298a430d390e89372458e77e78099e9.jpg
+ create mode 100644 data/classify/train/images/323_jpg.rf.e96076a2ad5179df0f046b01ce3f9fcb.jpg
+ create mode 100644 data/classify/train/images/324_jpg.rf.8bb7f9a7aac194197eede72bd599dac8.jpg
+ create mode 100644 data/classify/train/images/325_jpg.rf.d7a978d2d4709ceeb669e66fdf50cc1a.jpg
+ create mode 100644 data/classify/train/images/327_jpg.rf.1a06c1ed4dc277f1aa98df995f4f076f.jpg
+ create mode 100644 data/classify/train/images/328_jpg.rf.f66802d010c406bf388dffffbe5c5bd0.jpg
+ create mode 100644 data/classify/train/images/329_jpg.rf.1c434e537b6f01c9d2ea776a455566e5.jpg
+ create mode 100644 data/classify/train/images/32_jpg.rf.b65ed1b3f390ebec7e6ecde7471e4941.jpg
+ create mode 100644 data/classify/train/images/331_jpg.rf.d835d074c056d61d7c557877c1986667.jpg
+ create mode 100644 data/classify/train/images/334_jpg.rf.6e75a076b4ed250fef6a6aeb0f2fee36.jpg
+ create mode 100644 data/classify/train/images/335_jpg.rf.1bd7999d8c35f916dcf3ba5d9dd27981.jpg
+ create mode 100644 data/classify/train/images/337_jpg.rf.16b8ad3a202900b6c0c697f821e18e02.jpg
+ create mode 100644 data/classify/train/images/339_jpg.rf.62e0b2b2092481149015c468c240a337.jpg
+ create mode 100644 data/classify/train/images/33_jpg.rf.baf7b6a06d986f954cc3c79bafadb28e.jpg
+ create mode 100644 data/classify/train/images/340_jpg.rf.7768578a48ef2a1797023417e46396d2.jpg
+ create mode 100644 data/classify/train/images/341_jpg.rf.11e26ec38b8aa7e041bcf680f595cb71.jpg
+ create mode 100644 data/classify/train/images/34_jpg.rf.487d30a174a4561861784376f912fbf2.jpg
+ create mode 100644 data/classify/train/images/35_jpg.rf.7aff67b8556d47663c239df70d347287.jpg
+ create mode 100644 data/classify/train/images/35_jpg.rf.9ff624502cfaeaa0bfdd318298e9048c.jpg
+ create mode 100644 data/classify/train/images/36_jpg.rf.43806c3e2ea0f0ff5dc07d019fb05819.jpg
+ create mode 100644 data/classify/train/images/37_jpg.rf.a2ecaa25168c6775c32af8524e6468d0.jpg
+ create mode 100644 data/classify/train/images/38_jpg.rf.a6883309ac5b61cc94ea23aaaecdb7cb.jpg
+ create mode 100644 data/classify/train/images/38_jpg.rf.ad011fe1627171110770a88f99e6f27c.jpg
+ create mode 100644 data/classify/train/images/39_jpg.rf.6cf56d6675a65d5c6f361672513d866b.jpg
+ create mode 100644 data/classify/train/images/3_jpg.rf.6b44345b619a7c9f77c293a1fbf5cb0f.jpg
+ create mode 100644 data/classify/train/images/3_jpg.rf.ad9095460970550fef8f7be9415034c4.jpg
+ create mode 100644 data/classify/train/images/3_jpg.rf.d159980e06635ddd1559e2715b4ea1e7.jpg
+ create mode 100644 data/classify/train/images/40_jpg.rf.9506c108de52abdb76b34e6e69f031e4.jpg
+ create mode 100644 data/classify/train/images/40_jpg.rf.9ea4dc4cab3f07eeabc074cde32ac540.jpg
+ create mode 100644 data/classify/train/images/41_jpg.rf.52a3f2d55d1b342f5bcaba04756fe08a.jpg
+ create mode 100644 data/classify/train/images/41_jpg.rf.660ba12b7636f101a96b16fcb52d55a5.jpg
+ create mode 100644 data/classify/train/images/42_jpg.rf.e49707b9ab20679adc4e3e17cc23dcf5.jpg
+ create mode 100644 data/classify/train/images/43_jpg.rf.053d85e0904732d33c90ebf5309d7d31.jpg
+ create mode 100644 data/classify/train/images/43_jpg.rf.479bd7eb1b195c4f614002b940eef495.jpg
+ create mode 100644 data/classify/train/images/44_jpg.rf.ec93e09c37fdd20867f5ae5aa8e9d3bf.jpg
+ create mode 100644 data/classify/train/images/44_jpg.rf.fbc7908656812abd28b0a10a8a1fbe57.jpg
+ create mode 100644 data/classify/train/images/45_jpg.rf.3360412ab2c1f1406a54469280548391.jpg
+ create mode 100644 data/classify/train/images/46_jpg.rf.8aabc19bd12113d04c2a6388896203e3.jpg
+ create mode 100644 data/classify/train/images/47_jpg.rf.436d48683118b4b5209ebb8e8cb24093.jpg
+ create mode 100644 data/classify/train/images/47_jpg.rf.d7f39cffa95249f9568819e5e0dd0de2.jpg
+ create mode 100644 data/classify/train/images/48_jpg.rf.72397ed8c682c896211bbee4a7be7d1a.jpg
+ create mode 100644 data/classify/train/images/48_jpg.rf.e0601c2f5b1d150e976b3b02606196e0.jpg
+ create mode 100644 data/classify/train/images/49_jpg.rf.66dd963a2462cd563866d87f88e5dc42.jpg
+ create mode 100644 data/classify/train/images/49_jpg.rf.b868bceb600b7c70f917b728667c3d10.jpg
+ create mode 100644 data/classify/train/images/4_jpg.rf.d283b3687d3c75c40c285b87f75daba2.jpg
+ create mode 100644 data/classify/train/images/50_jpg.rf.8cb28ae3500f3176064dc6c0bc443b58.jpg
+ create mode 100644 data/classify/train/images/50_jpg.rf.f712b9b0ba745baa05559634fbbfeaf6.jpg
+ create mode 100644 data/classify/train/images/51_jpg.rf.2ee07e8880a597193ffce4b746781583.jpg
+ create mode 100644 data/classify/train/images/51_jpg.rf.50a9c4625088397ee39df624f1d3ef9f.jpg
+ create mode 100644 data/classify/train/images/52_jpg.rf.5c01f0736ed36aec1ad88536ccbf4c1d.jpg
+ create mode 100644 data/classify/train/images/52_jpg.rf.bc591ea8768a6c999552b3071647b651.jpg
+ create mode 100644 data/classify/train/images/53_jpg.rf.a64e69e574764824d9c236a3ecb0e879.jpg
+ create mode 100644 data/classify/train/images/56_jpg.rf.92744878e14c76d5f2a337d0c0ec10f9.jpg
+ create mode 100644 data/classify/train/images/57_jpg.rf.8912684c331e9508c7893cffb76744fb.jpg
+ create mode 100644 data/classify/train/images/57_jpg.rf.a7d373988c7dcfaf1c25dd7451744419.jpg
+ create mode 100644 data/classify/train/images/58_jpg.rf.1b80be1a1367e173567d3ee67c089c5e.jpg
+ create mode 100644 data/classify/train/images/59_jpg.rf.44383b9b5a30ca0793c1691136763e95.jpg
+ create mode 100644 data/classify/train/images/5_jpg.rf.554a68f2d1a72dbcc839fe3c619337ff.jpg
+ create mode 100644 data/classify/train/images/5_jpg.rf.d01c527b27857d5ccea277362f5f283a.jpg
+ create mode 100644 data/classify/train/images/60_jpg.rf.b9a458397da4695d09c345e74f717ecc.jpg
+ create mode 100644 data/classify/train/images/61_jpg.rf.7a0abebb4b94a51fe47f4706e8e3e21b.jpg
+ create mode 100644 data/classify/train/images/62_jpg.rf.20c0b390bb33f2a2a7ff101dfdd5c137.jpg
+ create mode 100644 data/classify/train/images/63_jpg.rf.064ec3406b83422f1ef4b10ebaff82bd.jpg
+ create mode 100644 data/classify/train/images/63_jpg.rf.b1c354b8d0aeb1852907bb657025731f.jpg
+ create mode 100644 data/classify/train/images/64_jpg.rf.770acceb4303918b9101a5828fe82cca.jpg
+ create mode 100644 data/classify/train/images/67_jpg.rf.f5bcf67332f5adf3de4ed35d030b049c.jpg
+ create mode 100644 data/classify/train/images/68_jpg.rf.8a9e1f7fa9115e12b1a6faf2f38afd11.jpg
+ create mode 100644 data/classify/train/images/69_jpg.rf.985ea0466bf1e82f09a3feb260479d0a.jpg
+ create mode 100644 data/classify/train/images/69_jpg.rf.e09b094146fa8089db511496d1e594f0.jpg
+ create mode 100644 data/classify/train/images/6_jpg.rf.c65f8918b1a22fc16245aea9df616f28.jpg
+ create mode 100644 data/classify/train/images/70_jpg.rf.0f4cfaa427d96306a671c26e7d8c6ec9.jpg
+ create mode 100644 data/classify/train/images/71_jpg.rf.c0fd0c517d653a646190abfbaaba1b3a.jpg
+ create mode 100644 data/classify/train/images/72_jpg.rf.2e307f42f2e661ed6f9f6ee99ce0c336.jpg
+ create mode 100644 data/classify/train/images/73_jpg.rf.0354b789ef76c3cd5011946495501e5e.jpg
+ create mode 100644 data/classify/train/images/73_jpg.rf.32902f3b9407e71a1ca5df450973f2eb.jpg
+ create mode 100644 data/classify/train/images/74_jpg.rf.6d064e3fa2e319518d42ff77706fd342.jpg
+ create mode 100644 data/classify/train/images/74_jpg.rf.c1e93bd213f510c61c934ad45b2e8351.jpg
+ create mode 100644 data/classify/train/images/75_jpg.rf.c1675beb9a3c6a56f892e280a9f43c88.jpg
+ create mode 100644 data/classify/train/images/76_jpg.rf.e6126c8a03143e12df95634a16f6eb76.jpg
+ create mode 100644 data/classify/train/images/77_jpg.rf.965d401c383858d57e47352664320ba6.jpg
+ create mode 100644 data/classify/train/images/78_jpg.rf.1a4a555d8392299c329b7bd7de900590.jpg
+ create mode 100644 data/classify/train/images/79_jpg.rf.6c3bf684a38e4da75b8d4f0f11c118c6.jpg
+ create mode 100644 data/classify/train/images/79_jpg.rf.8bc048966c4234a85340eb02c9c52b20.jpg
+ create mode 100644 data/classify/train/images/7_jpg.rf.1333e6adcb84cc0ad76e692942d178ef.jpg
+ create mode 100644 data/classify/train/images/80_jpg.rf.859cff63fca81afd4c4ea212ef7cfcb3.jpg
+ create mode 100644 data/classify/train/images/81_jpg.rf.e01e780ef7e0b93ceef6173a95e5bedc.jpg
+ create mode 100644 data/classify/train/images/82_jpg.rf.240a35f77433219ba36c484a95db3fa4.jpg
+ create mode 100644 data/classify/train/images/82_jpg.rf.9ff6aa8fea60b752d6faa3874d884c77.jpg
+ create mode 100644 data/classify/train/images/83_jpg.rf.8fe3f72ba65f592d1ba97792defa8c2e.jpg
+ create mode 100644 data/classify/train/images/84_jpg.rf.41464ce2d91b501120f9690d5e3257a0.jpg
+ create mode 100644 data/classify/train/images/86_jpg.rf.1846066abeadcd92d73d481b8ae4b62e.jpg
+ create mode 100644 data/classify/train/images/86_jpg.rf.f42aa0c727520112c4e37ff41f8acfe4.jpg
+ create mode 100644 data/classify/train/images/87_jpg.rf.768d87e2fb5157ed61368b404d709fa4.jpg
+ create mode 100644 data/classify/train/images/87_jpg.rf.9e9becb7e97bb8d6f2cefbfbd20149a4.jpg
+ create mode 100644 data/classify/train/images/88_jpg.rf.1e7c6605ea8e81c49b0e7e6d68a8cbb2.jpg
+ create mode 100644 data/classify/train/images/89_jpg.rf.2dd50506763769730f8a7e32c1de5652.jpg
+ create mode 100644 data/classify/train/images/8_jpg.rf.7d69d1a503609da87f62b4ab3bc865cf.jpg
+ create mode 100644 data/classify/train/images/90_jpg.rf.41d7b2c7f18efe87416ab40f9b606c43.jpg
+ create mode 100644 data/classify/train/images/91_jpg.rf.ebf9c3088948e179cf151d488e95a380.jpg
+ create mode 100644 data/classify/train/images/92_jpg.rf.d49f3514496663e0de36928e29afe326.jpg
+ create mode 100644 data/classify/train/images/93_jpg.rf.40e6e117373cbc6966535cabda525d0b.jpg
+ create mode 100644 data/classify/train/images/94_jpg.rf.9a2fef69c3b586147d74e94c6f6133fc.jpg
+ create mode 100644 data/classify/train/images/95_jpg.rf.e97c14a84c08b7c8b86cbaf268bcc8b6.jpg
+ create mode 100644 data/classify/train/images/97_jpg.rf.e7d305921e8aba9f5664f3d6e7bece50.jpg
+ create mode 100644 data/classify/train/images/99_jpg.rf.92887f1ae4b981cc45bfdedee6b56193.jpg
+ create mode 100644 data/classify/train/images/9_jpg.rf.b3be234330032ab595bc3f2071267829.jpg
+ create mode 100644 data/classify/train/labels.cache
+ create mode 100644 data/classify/train/labels/100_jpg.rf.4b0956cb95a20c7087550a20877dbf5e.txt
+ create mode 100644 data/classify/train/labels/101_jpg.rf.1200cac27775e0fa475ab1998c83b7c5.txt
+ create mode 100644 data/classify/train/labels/103_jpg.rf.5b26985199fb7142c6e1ca0d1db83471.txt
+ create mode 100644 data/classify/train/labels/104_jpg.rf.4f3b3950e80bd5adc50bec546b64075c.txt
+ create mode 100644 data/classify/train/labels/107_jpg.rf.0881d3e2b6799fd30e8da989d22ea681.txt
+ create mode 100644 data/classify/train/labels/108_jpg.rf.f7cfdb5190de59f51935df30e071dba1.txt
+ create mode 100644 data/classify/train/labels/109_jpg.rf.aa6996e085ceee5f002af4de957e175c.txt
+ create mode 100644 data/classify/train/labels/10_jpg.rf.63273b04c9844f3774e92ccb18893cb3.txt
+ create mode 100644 data/classify/train/labels/10_jpg.rf.7e423b4ae86f41ca42259c6c15e04346.txt
+ create mode 100644 data/classify/train/labels/10_jpg.rf.d1c873be5802d2155b1860870d5faec5.txt
+ create mode 100644 data/classify/train/labels/110_jpg.rf.534dfcc10cc6595c4e53da7711ccac52.txt
+ create mode 100644 data/classify/train/labels/112_jpg.rf.402a14db54d7fe88b7093d9eac1f409f.txt
+ create mode 100644 data/classify/train/labels/114_jpg.rf.cde822fb1559ea5ef15fe2fb114e41bb.txt
+ create mode 100644 data/classify/train/labels/117_jpg.rf.8520b9b92552ca3e13a19ee52f19e1bd.txt
+ create mode 100644 data/classify/train/labels/11_jpg.rf.47ed0f635da30bea02efad1b5021bbde.txt
+ create mode 100644 data/classify/train/labels/11_jpg.rf.f73a822dae5eafafd0999376bd55d2e3.txt
+ create mode 100644 data/classify/train/labels/120_jpg.rf.c4cea32c31476f33c1a9a009cdb4bc33.txt
+ create mode 100644 data/classify/train/labels/121_jpg.rf.e0cf619cb8efeacacca11ca31f5a4709.txt
+ create mode 100644 data/classify/train/labels/122_jpg.rf.4a0d8b7d14db3ba214613cf7bf3820c9.txt
+ create mode 100644 data/classify/train/labels/123_jpg.rf.ac4ec1fa9f69852841104f1073cf4017.txt
+ create mode 100644 data/classify/train/labels/125_jpg.rf.ca4948335d5615eb47fac1239a9612ee.txt
+ create mode 100644 data/classify/train/labels/126_jpg.rf.893077d08c809e00bc2abbdfbb70d872.txt
+ create mode 100644 data/classify/train/labels/127_jpg.rf.8661cb0428f8133a809b3e0415d67923.txt
+ create mode 100644 data/classify/train/labels/128_jpg.rf.135ed5b10f21bf45355dabaa163cd0e0.txt
+ create mode 100644 data/classify/train/labels/129_jpg.rf.82bf929ff1e0b1d531debfa68f3b4028.txt
+ create mode 100644 data/classify/train/labels/12_jpg.rf.4e23bdccf2699c2bf53b0303eeb47057.txt
+ create mode 100644 data/classify/train/labels/12_jpg.rf.b2bd2805234b95e2ff016686f32ebdad.txt
+ create mode 100644 data/classify/train/labels/130_jpg.rf.72aee177d0527d6e81e974cd056a1333.txt
+ create mode 100644 data/classify/train/labels/132_jpg.rf.d0288288619a63415f8b2d4751c4fb00.txt
+ create mode 100644 data/classify/train/labels/133_jpg.rf.28bc828746c0045070c3650e3b874b98.txt
+ create mode 100644 data/classify/train/labels/134_jpg.rf.83a93f56682ee171fc0e8f5f72ee2a23.txt
+ create mode 100644 data/classify/train/labels/135_jpg.rf.ac7cd04cc37477b16f240622adb1b692.txt
+ create mode 100644 data/classify/train/labels/136_jpg.rf.669080d92757453981b29f3954f6176b.txt
+ create mode 100644 data/classify/train/labels/137_jpg.rf.585fcffbf49d94e220f483b175a4812a.txt
+ create mode 100644 data/classify/train/labels/138_jpg.rf.be43f9dd3a2cd10bf6d4fd453cb30f60.txt
+ create mode 100644 data/classify/train/labels/139_jpg.rf.4be830b63c06963c9aa2c75448ba2b5e.txt
+ create mode 100644 data/classify/train/labels/13_jpg.rf.1024da650a652495fa151ef67aec782f.txt
+ create mode 100644 data/classify/train/labels/13_jpg.rf.88884df23b716ef000071920eeffa995.txt
+ create mode 100644 data/classify/train/labels/13_jpg.rf.e451affd6b871cbcf3e515f87b89c791.txt
+ create mode 100644 data/classify/train/labels/142_jpg.rf.c1b7583bca6e0e0a5c512cb33c2ce198.txt
+ create mode 100644 data/classify/train/labels/143_jpg.rf.72d09ab0599e41fe77e25d792acd206d.txt
+ create mode 100644 data/classify/train/labels/144_jpg.rf.cf11b0d37c2b5b656ac2fc6168c6b1df.txt
+ create mode 100644 data/classify/train/labels/145_jpg.rf.c97ae9d38226b119138d3ff22ba3fa0c.txt
+ create mode 100644 data/classify/train/labels/147_jpg.rf.8f7f7821d265b658bb040373536e0975.txt
+ create mode 100644 data/classify/train/labels/148_jpg.rf.215d20d5a4ec108d4e3af803113d6dd5.txt
+ create mode 100644 data/classify/train/labels/14_jpg.rf.e4147036046146ac15a41207bc585eac.txt
+ create mode 100644 data/classify/train/labels/14_jpg.rf.ffc77631c716b6f330bef4930ab4088b.txt
+ create mode 100644 data/classify/train/labels/151_jpg.rf.2a9a45736c4e33806734eb39796d5886.txt
+ create mode 100644 data/classify/train/labels/153_jpg.rf.86d7725b94d90e468499ee2f036748b5.txt
+ create mode 100644 data/classify/train/labels/154_jpg.rf.56159d1be8183d0c3199fd6af407bb3b.txt
+ create mode 100644 data/classify/train/labels/155_jpg.rf.a26be87d91c0e7670521fafbd93cf78c.txt
+ create mode 100644 data/classify/train/labels/156_jpg.rf.83df957a65a17ff0c1571fe766393bc8.txt
+ create mode 100644 data/classify/train/labels/157_jpg.rf.487cb7d8086379cfd1859e31476ca139.txt
+ create mode 100644 data/classify/train/labels/158_jpg.rf.891cd2e969d836f99f8549ef6b8c1794.txt
+ create mode 100644 data/classify/train/labels/159_jpg.rf.24b7b21dc5de22a15f29c90994018ea8.txt
+ create mode 100644 data/classify/train/labels/15_jpg.rf.375552c729294100dc91c0e94d35747c.txt
+ create mode 100644 data/classify/train/labels/15_jpg.rf.6430dff0c90c4d9cc4dbaad0b15f4dd3.txt
+ create mode 100644 data/classify/train/labels/160_jpg.rf.262845c0f6dbc88ca6f85e8dcd57d6c8.txt
+ create mode 100644 data/classify/train/labels/161_jpg.rf.830d7a7ac8d24539e89da2f97724d854.txt
+ create mode 100644 data/classify/train/labels/164_jpg.rf.d09ba169a28174e3bddf5ffe25e6718e.txt
+ create mode 100644 data/classify/train/labels/165_jpg.rf.b4fd20487c074e24fa1690f89c2a8214.txt
+ create mode 100644 data/classify/train/labels/169_jpg.rf.fa480166c0f55534590f969fbd5978fe.txt
+ create mode 100644 data/classify/train/labels/16_jpg.rf.312579fa09254e0c387fcf3932650390.txt
+ create mode 100644 data/classify/train/labels/16_jpg.rf.cf3f17609c5edd58cc44192295d35352.txt
+ create mode 100644 data/classify/train/labels/16_jpg.rf.e8ee42b3acaff6bc8ac0c1198aca16e5.txt
+ create mode 100644 data/classify/train/labels/170_jpg.rf.672a8f5ce1dd9125cc33edc759402e06.txt
+ create mode 100644 data/classify/train/labels/172_jpg.rf.5a09bdcfdbce8ad48c33b544cc53c2dd.txt
+ create mode 100644 data/classify/train/labels/174_jpg.rf.eaaa8b4cc5e9e963f066dcba41b602e5.txt
+ create mode 100644 data/classify/train/labels/175_jpg.rf.5f33be8e5ee5e6e57ca12715d51adf16.txt
+ create mode 100644 data/classify/train/labels/179_jpg.rf.1b6bf71125826c8c2295e038069deb75.txt
+ create mode 100644 data/classify/train/labels/17_jpg.rf.03840c8962c146b5bdb0d0401ecfefc8.txt
+ create mode 100644 data/classify/train/labels/180_jpg.rf.32c16aeee659deab1c6ffd06affd8b30.txt
+ create mode 100644 data/classify/train/labels/181_jpg.rf.c0a8006f8a02d85b236f54dd0fc18818.txt
+ create mode 100644 data/classify/train/labels/183_jpg.rf.2d067dcc41016b87aa14590ba8ad7e61.txt
+ create mode 100644 data/classify/train/labels/184_jpg.rf.669b8dad3c9febcb069f93de6e8982f4.txt
+ create mode 100644 data/classify/train/labels/185_jpg.rf.3fe2001aa7dc6be706d3c0a71585af8e.txt
+ create mode 100644 data/classify/train/labels/186_jpg.rf.91f276d8243001a11764cb1e5674ea87.txt
+ create mode 100644 data/classify/train/labels/187_jpg.rf.43c11c4b2606c4ceca26fff3ccdaecc7.txt
+ create mode 100644 data/classify/train/labels/188_jpg.rf.282f3a597982780e1d8f6a5d5fa614e5.txt
+ create mode 100644 data/classify/train/labels/189_jpg.rf.cf54e5bde42d40a66e94e5cdfcb5bd38.txt
+ create mode 100644 data/classify/train/labels/18_jpg.rf.1829ee0373aa73a8661682fc1e5ef1b0.txt
+ create mode 100644 data/classify/train/labels/190_jpg.rf.7bf9d8af77d8ac207aa851c571291e44.txt
+ create mode 100644 data/classify/train/labels/191_jpg.rf.7816f14aafa5993f96de372a846acd4c.txt
+ create mode 100644 data/classify/train/labels/194_jpg.rf.f0b98efbaa8fd3ebed3e537b127f39de.txt
+ create mode 100644 data/classify/train/labels/195_jpg.rf.05803177e632f1eff5aa7d2c151ef573.txt
+ create mode 100644 data/classify/train/labels/197_jpg.rf.c11359c7dc50d31bdec4e0b4c142dc48.txt
+ create mode 100644 data/classify/train/labels/19_jpg.rf.14a13724eb7d378f88406b794478208d.txt
+ create mode 100644 data/classify/train/labels/1_jpg.rf.ae5ecc3d2c03e9f7112cf839637ee05a.txt
+ create mode 100644 data/classify/train/labels/1_jpg.rf.df362b2157ab685410e71eb4a62dd7de.txt
+ create mode 100644 data/classify/train/labels/1_jpg.rf.ffc90dd1e0d2ca63cf521fdd3df27c90.txt
+ create mode 100644 data/classify/train/labels/200_jpg.rf.a8becee1279e6338da63903d450f5a8f.txt
+ create mode 100644 data/classify/train/labels/201_jpg.rf.65543487fecbae72e5e44c5242fc2fa3.txt
+ create mode 100644 data/classify/train/labels/203_jpg.rf.b427fb0b4bdc09b4a9f19a2fe159829a.txt
+ create mode 100644 data/classify/train/labels/204_jpg.rf.07f64a51e7a0ebe076657d7d2f865223.txt
+ create mode 100644 data/classify/train/labels/206_jpg.rf.30e83faa0f9d67ce69c9c8adea087de0.txt
+ create mode 100644 data/classify/train/labels/209_jpg.rf.3378062cf8856b6337505fa5b5263d24.txt
+ create mode 100644 data/classify/train/labels/20_jpg.rf.77282c405cad1cfce8ff6780a0fa7d06.txt
+ create mode 100644 data/classify/train/labels/211_jpg.rf.eedd9a4cb8f155e6cee55862649d56ea.txt
+ create mode 100644 data/classify/train/labels/212_jpg.rf.0c2ef4227be70fbe2b401568a35baac2.txt
+ create mode 100644 data/classify/train/labels/213_jpg.rf.38df41a0c8aadc496a9a41de4fb32075.txt
+ create mode 100644 data/classify/train/labels/215_jpg.rf.0acbd37bbdbc84a10144ac7d835d48ac.txt
+ create mode 100644 data/classify/train/labels/217_jpg.rf.3e3b2410bbef5297bfed332b6416bb39.txt
+ create mode 100644 data/classify/train/labels/219_jpg.rf.62c6b8b17b3518a7ef81c07015246dc5.txt
+ create mode 100644 data/classify/train/labels/21_jpg.rf.e345da9aa885f9064e296c81d3af3e04.txt
+ create mode 100644 data/classify/train/labels/220_jpg.rf.c70a1eb01e855c0d81aee0c9854874c6.txt
+ create mode 100644 data/classify/train/labels/221_jpg.rf.74c90954642ed12a79e1af214bcdf49e.txt
+ create mode 100644 data/classify/train/labels/223_jpg.rf.b18dffd23407a137626fee9d23c021e5.txt
+ create mode 100644 data/classify/train/labels/224_jpg.rf.acc31435e58d1603bed3b326bc3791f4.txt
+ create mode 100644 data/classify/train/labels/226_jpg.rf.c6f808f728e3dbc492715a722882f145.txt
+ create mode 100644 data/classify/train/labels/227_jpg.rf.7a00b66a3c2b37362dbce54034bb3175.txt
+ create mode 100644 data/classify/train/labels/228_jpg.rf.81944b2a4e192316ee5331cb0d9f766c.txt
+ create mode 100644 data/classify/train/labels/229_jpg.rf.59567baa150d7568eb1ff321bc1ede61.txt
+ create mode 100644 data/classify/train/labels/22_jpg.rf.3bd154adf0dcc858680ceac318b7b100.txt
+ create mode 100644 data/classify/train/labels/22_jpg.rf.d6e4143d3978e55554fe8eb578bc549f.txt
+ create mode 100644 data/classify/train/labels/230_jpg.rf.a3a04ef06a73916b6c9d24b58e53c3d6.txt
+ create mode 100644 data/classify/train/labels/232_jpg.rf.8c267ba3555c5ee7eb478aadcaacf233.txt
+ create mode 100644 data/classify/train/labels/233_jpg.rf.18ffbeb73b4903c0f278ef7377e8b83a.txt
+ create mode 100644 data/classify/train/labels/234_jpg.rf.faba5d6933c47534900e93526b194be7.txt
+ create mode 100644 data/classify/train/labels/236_jpg.rf.06f585d1c3242c8fefd387470f2248f6.txt
+ create mode 100644 data/classify/train/labels/237_jpg.rf.c059298703eaa5fa711b69dd23e644c9.txt
+ create mode 100644 data/classify/train/labels/238_jpg.rf.f60b5d339009a06d2c7cba3d4cb72a8d.txt
+ create mode 100644 data/classify/train/labels/239_jpg.rf.67912253ae08b432e02efc8c329b7d2c.txt
+ create mode 100644 data/classify/train/labels/23_jpg.rf.5ed07f23d1eef38fb472b5362031246a.txt
+ create mode 100644 data/classify/train/labels/23_jpg.rf.78bb1e72f9933fedab5122bcc87f573e.txt
+ create mode 100644 data/classify/train/labels/240_jpg.rf.fdaa070b6449db23415e38c073fd7e44.txt
+ create mode 100644 data/classify/train/labels/241_jpg.rf.9f449dfb426734a081473c24dd2ab2b4.txt
+ create mode 100644 data/classify/train/labels/243_jpg.rf.c1b60ce6982896f7a489559bc7dde101.txt
+ create mode 100644 data/classify/train/labels/244_jpg.rf.1ea4d3bf05dc5a9ffd9b23baf52c4070.txt
+ create mode 100644 data/classify/train/labels/245_jpg.rf.aebbdf50aff88e2abccbe0f0eb6263ab.txt
+ create mode 100644 data/classify/train/labels/248_jpg.rf.5472cd216b661b2f4aacb4c5167f19d0.txt
+ create mode 100644 data/classify/train/labels/24_jpg.rf.6b835a9134fd3768db128b7be82ca7fc.txt
+ create mode 100644 data/classify/train/labels/250_jpg.rf.5aca1c4f47ccfceaaf69df7abca2d522.txt
+ create mode 100644 data/classify/train/labels/252_jpg.rf.a227e13e308391dd8f23faa5b0a7d954.txt
+ create mode 100644 data/classify/train/labels/253_jpg.rf.7d9bf4b2b61944dedad79b2559af64df.txt
+ create mode 100644 data/classify/train/labels/254_jpg.rf.0921d0cec5a29005c5de584d275f67ac.txt
+ create mode 100644 data/classify/train/labels/255_jpg.rf.2966192ef23d528aa8d9a390a6e012f0.txt
+ create mode 100644 data/classify/train/labels/256_jpg.rf.f723724a61a6c82a7fa9c2cf8253ef0d.txt
+ create mode 100644 data/classify/train/labels/257_jpg.rf.5f75823448ba889a64dc4a0fe5911dac.txt
+ create mode 100644 data/classify/train/labels/258_jpg.rf.e0c978871b16a2883d63242d741b2d64.txt
+ create mode 100644 data/classify/train/labels/25_jpg.rf.1416cb46a68d30b6205bb015d0729969.txt
+ create mode 100644 data/classify/train/labels/261_jpg.rf.8cb4ab9c80854dc34785861df9f68beb.txt
+ create mode 100644 data/classify/train/labels/263_jpg.rf.492c7c7d13670cde59c6989d4ef87245.txt
+ create mode 100644 data/classify/train/labels/264_jpg.rf.e875bf6d8a9b8b31772ba17bab8c6e7e.txt
+ create mode 100644 data/classify/train/labels/268_jpg.rf.4dce905d8120b87ac31ba6b260150cb2.txt
+ create mode 100644 data/classify/train/labels/26_jpg.rf.348da2121d916ddb39e1d69d04cafeb4.txt
+ create mode 100644 data/classify/train/labels/270_jpg.rf.0008c859240ffb804898092483c76812.txt
+ create mode 100644 data/classify/train/labels/271_jpg.rf.625c6a9dd9a0dfdff68d4463d4a377f1.txt
+ create mode 100644 data/classify/train/labels/273_jpg.rf.9af41afd38cc50da97b84df9ea6cc984.txt
+ create mode 100644 data/classify/train/labels/275_jpg.rf.fc02b0ad2111dabc0d4c6ce71b40de4f.txt
+ create mode 100644 data/classify/train/labels/277_jpg.rf.567d794822dcf86f5adc3a0d3b8dec41.txt
+ create mode 100644 data/classify/train/labels/278_jpg.rf.e3b66f69959c201721c24395dfa63b08.txt
+ create mode 100644 data/classify/train/labels/27_jpg.rf.79c73f9181995e08d3967f2135d1d992.txt
+ create mode 100644 data/classify/train/labels/27_jpg.rf.a0684ce3994eea09d4d616082bb33540.txt
+ create mode 100644 data/classify/train/labels/280_jpg.rf.7ce3d89667216d25a933ab989e660829.txt
+ create mode 100644 data/classify/train/labels/281_jpg.rf.2e21935526ac6f292cea600b3f98acfa.txt
+ create mode 100644 data/classify/train/labels/282_jpg.rf.b59644ebd706c8761d7537bf5ff19126.txt
+ create mode 100644 data/classify/train/labels/285_jpg.rf.8155eddb47fb1f33b8fba9ba3d33a129.txt
+ create mode 100644 data/classify/train/labels/287_jpg.rf.3d26d7c4de5f9927dc37ceddd71fd500.txt
+ create mode 100644 data/classify/train/labels/288_jpg.rf.e4ef3aca5ec0612776ef0fb770e849a2.txt
+ create mode 100644 data/classify/train/labels/289_jpg.rf.75247f435924b997d3fbc49ea050907b.txt
+ create mode 100644 data/classify/train/labels/28_jpg.rf.1c8a5f5b80dfea1bf9f1fb0e0bf3b8c7.txt
+ create mode 100644 data/classify/train/labels/28_jpg.rf.5c4d30cce505fc16784a3afa50025c5a.txt
+ create mode 100644 data/classify/train/labels/290_jpg.rf.054ae6c452493a0a89f752b634ce07e8.txt
+ create mode 100644 data/classify/train/labels/291_jpg.rf.efb2e6da5aa59276b2bde8349bf7811b.txt
+ create mode 100644 data/classify/train/labels/292_jpg.rf.4661df453ea96ceaa328523ad33acfce.txt
+ create mode 100644 data/classify/train/labels/293_jpg.rf.91fdd08f62c9a51d874024a0ae046e5a.txt
+ create mode 100644 data/classify/train/labels/294_jpg.rf.e56c8145078f8b16e0b6cb739ebf634c.txt
+ create mode 100644 data/classify/train/labels/295_jpg.rf.befe0b1bfb427f5011abc89016d31c89.txt
+ create mode 100644 data/classify/train/labels/296_jpg.rf.a8821dca09407e74c66dac0543fa808c.txt
+ create mode 100644 data/classify/train/labels/29_jpg.rf.2a69e776844806ab5e3c696bbde4103a.txt
+ create mode 100644 data/classify/train/labels/2_jpg.rf.5ff8eb6e210ec9a80d6fe16012472223.txt
+ create mode 100644 data/classify/train/labels/300_jpg.rf.a52d767278003b2c78be1821e26b7e69.txt
+ create mode 100644 data/classify/train/labels/301_jpg.rf.26dd93dc6fe10dabdadca8a8b7f82cdd.txt
+ create mode 100644 data/classify/train/labels/303_jpg.rf.bef20bad06c8820d91ec0a8bf543a877.txt
+ create mode 100644 data/classify/train/labels/306_jpg.rf.9b4ced1e9b0fe1b586d6574e5bc0565c.txt
+ create mode 100644 data/classify/train/labels/308_jpg.rf.4c6d164da9830dacf7e00f137e4ee254.txt
+ create mode 100644 data/classify/train/labels/309_jpg.rf.77d35e2eefbfbc10b8cd2ef14cd5be56.txt
+ create mode 100644 data/classify/train/labels/30_jpg.rf.b8966604401ee970148923eb468a7290.txt
+ create mode 100644 data/classify/train/labels/310_jpg.rf.be53a0e68e7188c7e661291ceb5c30ad.txt
+ create mode 100644 data/classify/train/labels/311_jpg.rf.9c4f72854cb2efaf104d1f50d3b6065d.txt
+ create mode 100644 data/classify/train/labels/312_jpg.rf.0fc6db0c85f564afc6971c4c25c4496c.txt
+ create mode 100644 data/classify/train/labels/313_jpg.rf.93780431181b1aa8718f9fa48dfc515e.txt
+ create mode 100644 data/classify/train/labels/314_jpg.rf.41a31b697f567cfa17ce5557e2cb3a04.txt
+ create mode 100644 data/classify/train/labels/318_jpg.rf.346369bde2621bfd619ec91971216964.txt
+ create mode 100644 data/classify/train/labels/319_jpg.rf.3e207c8374c20e8f1cd75695c9df3d29.txt
+ create mode 100644 data/classify/train/labels/31_jpg.rf.bf923d3fae6ec358922eb2c426953ef2.txt
+ create mode 100644 data/classify/train/labels/321_jpg.rf.b298a430d390e89372458e77e78099e9.txt
+ create mode 100644 data/classify/train/labels/323_jpg.rf.e96076a2ad5179df0f046b01ce3f9fcb.txt
+ create mode 100644 data/classify/train/labels/324_jpg.rf.8bb7f9a7aac194197eede72bd599dac8.txt
+ create mode 100644 data/classify/train/labels/325_jpg.rf.d7a978d2d4709ceeb669e66fdf50cc1a.txt
+ create mode 100644 data/classify/train/labels/327_jpg.rf.1a06c1ed4dc277f1aa98df995f4f076f.txt
+ create mode 100644 data/classify/train/labels/328_jpg.rf.f66802d010c406bf388dffffbe5c5bd0.txt
+ create mode 100644 data/classify/train/labels/329_jpg.rf.1c434e537b6f01c9d2ea776a455566e5.txt
+ create mode 100644 data/classify/train/labels/32_jpg.rf.b65ed1b3f390ebec7e6ecde7471e4941.txt
+ create mode 100644 data/classify/train/labels/331_jpg.rf.d835d074c056d61d7c557877c1986667.txt
+ create mode 100644 data/classify/train/labels/334_jpg.rf.6e75a076b4ed250fef6a6aeb0f2fee36.txt
+ create mode 100644 data/classify/train/labels/335_jpg.rf.1bd7999d8c35f916dcf3ba5d9dd27981.txt
+ create mode 100644 data/classify/train/labels/337_jpg.rf.16b8ad3a202900b6c0c697f821e18e02.txt
+ create mode 100644 data/classify/train/labels/339_jpg.rf.62e0b2b2092481149015c468c240a337.txt
+ create mode 100644 data/classify/train/labels/33_jpg.rf.baf7b6a06d986f954cc3c79bafadb28e.txt
+ create mode 100644 data/classify/train/labels/340_jpg.rf.7768578a48ef2a1797023417e46396d2.txt
+ create mode 100644 data/classify/train/labels/341_jpg.rf.11e26ec38b8aa7e041bcf680f595cb71.txt
+ create mode 100644 data/classify/train/labels/34_jpg.rf.487d30a174a4561861784376f912fbf2.txt
+ create mode 100644 data/classify/train/labels/35_jpg.rf.7aff67b8556d47663c239df70d347287.txt
+ create mode 100644 data/classify/train/labels/35_jpg.rf.9ff624502cfaeaa0bfdd318298e9048c.txt
+ create mode 100644 data/classify/train/labels/36_jpg.rf.43806c3e2ea0f0ff5dc07d019fb05819.txt
+ create mode 100644 data/classify/train/labels/37_jpg.rf.a2ecaa25168c6775c32af8524e6468d0.txt
+ create mode 100644 data/classify/train/labels/38_jpg.rf.a6883309ac5b61cc94ea23aaaecdb7cb.txt
+ create mode 100644 data/classify/train/labels/38_jpg.rf.ad011fe1627171110770a88f99e6f27c.txt
+ create mode 100644 data/classify/train/labels/39_jpg.rf.6cf56d6675a65d5c6f361672513d866b.txt
+ create mode 100644 data/classify/train/labels/3_jpg.rf.6b44345b619a7c9f77c293a1fbf5cb0f.txt
+ create mode 100644 data/classify/train/labels/3_jpg.rf.ad9095460970550fef8f7be9415034c4.txt
+ create mode 100644 data/classify/train/labels/3_jpg.rf.d159980e06635ddd1559e2715b4ea1e7.txt
+ create mode 100644 data/classify/train/labels/40_jpg.rf.9506c108de52abdb76b34e6e69f031e4.txt
+ create mode 100644 data/classify/train/labels/40_jpg.rf.9ea4dc4cab3f07eeabc074cde32ac540.txt
+ create mode 100644 data/classify/train/labels/41_jpg.rf.52a3f2d55d1b342f5bcaba04756fe08a.txt
+ create mode 100644 data/classify/train/labels/41_jpg.rf.660ba12b7636f101a96b16fcb52d55a5.txt
+ create mode 100644 data/classify/train/labels/42_jpg.rf.e49707b9ab20679adc4e3e17cc23dcf5.txt
+ create mode 100644 data/classify/train/labels/43_jpg.rf.053d85e0904732d33c90ebf5309d7d31.txt
+ create mode 100644 data/classify/train/labels/43_jpg.rf.479bd7eb1b195c4f614002b940eef495.txt
+ create mode 100644 data/classify/train/labels/44_jpg.rf.ec93e09c37fdd20867f5ae5aa8e9d3bf.txt
+ create mode 100644 data/classify/train/labels/44_jpg.rf.fbc7908656812abd28b0a10a8a1fbe57.txt
+ create mode 100644 data/classify/train/labels/45_jpg.rf.3360412ab2c1f1406a54469280548391.txt
+ create mode 100644 data/classify/train/labels/46_jpg.rf.8aabc19bd12113d04c2a6388896203e3.txt
+ create mode 100644 data/classify/train/labels/47_jpg.rf.436d48683118b4b5209ebb8e8cb24093.txt
+ create mode 100644 data/classify/train/labels/47_jpg.rf.d7f39cffa95249f9568819e5e0dd0de2.txt
+ create mode 100644 data/classify/train/labels/48_jpg.rf.72397ed8c682c896211bbee4a7be7d1a.txt
+ create mode 100644 data/classify/train/labels/48_jpg.rf.e0601c2f5b1d150e976b3b02606196e0.txt
+ create mode 100644 data/classify/train/labels/49_jpg.rf.66dd963a2462cd563866d87f88e5dc42.txt
+ create mode 100644 data/classify/train/labels/49_jpg.rf.b868bceb600b7c70f917b728667c3d10.txt
+ create mode 100644 data/classify/train/labels/4_jpg.rf.d283b3687d3c75c40c285b87f75daba2.txt
+ create mode 100644 data/classify/train/labels/50_jpg.rf.8cb28ae3500f3176064dc6c0bc443b58.txt
+ create mode 100644 data/classify/train/labels/50_jpg.rf.f712b9b0ba745baa05559634fbbfeaf6.txt
+ create mode 100644 data/classify/train/labels/51_jpg.rf.2ee07e8880a597193ffce4b746781583.txt
+ create mode 100644 data/classify/train/labels/51_jpg.rf.50a9c4625088397ee39df624f1d3ef9f.txt
+ create mode 100644 data/classify/train/labels/52_jpg.rf.5c01f0736ed36aec1ad88536ccbf4c1d.txt
+ create mode 100644 data/classify/train/labels/52_jpg.rf.bc591ea8768a6c999552b3071647b651.txt
+ create mode 100644 data/classify/train/labels/53_jpg.rf.a64e69e574764824d9c236a3ecb0e879.txt
+ create mode 100644 data/classify/train/labels/56_jpg.rf.92744878e14c76d5f2a337d0c0ec10f9.txt
+ create mode 100644 data/classify/train/labels/57_jpg.rf.8912684c331e9508c7893cffb76744fb.txt
+ create mode 100644 data/classify/train/labels/57_jpg.rf.a7d373988c7dcfaf1c25dd7451744419.txt
+ create mode 100644 data/classify/train/labels/58_jpg.rf.1b80be1a1367e173567d3ee67c089c5e.txt
+ create mode 100644 data/classify/train/labels/59_jpg.rf.44383b9b5a30ca0793c1691136763e95.txt
+ create mode 100644 data/classify/train/labels/5_jpg.rf.554a68f2d1a72dbcc839fe3c619337ff.txt
+ create mode 100644 data/classify/train/labels/5_jpg.rf.d01c527b27857d5ccea277362f5f283a.txt
+ create mode 100644 data/classify/train/labels/60_jpg.rf.b9a458397da4695d09c345e74f717ecc.txt
+ create mode 100644 data/classify/train/labels/61_jpg.rf.7a0abebb4b94a51fe47f4706e8e3e21b.txt
+ create mode 100644 data/classify/train/labels/62_jpg.rf.20c0b390bb33f2a2a7ff101dfdd5c137.txt
+ create mode 100644 data/classify/train/labels/63_jpg.rf.064ec3406b83422f1ef4b10ebaff82bd.txt
+ create mode 100644 data/classify/train/labels/63_jpg.rf.b1c354b8d0aeb1852907bb657025731f.txt
+ create mode 100644 data/classify/train/labels/64_jpg.rf.770acceb4303918b9101a5828fe82cca.txt
+ create mode 100644 data/classify/train/labels/67_jpg.rf.f5bcf67332f5adf3de4ed35d030b049c.txt
+ create mode 100644 data/classify/train/labels/68_jpg.rf.8a9e1f7fa9115e12b1a6faf2f38afd11.txt
+ create mode 100644 data/classify/train/labels/69_jpg.rf.985ea0466bf1e82f09a3feb260479d0a.txt
+ create mode 100644 data/classify/train/labels/69_jpg.rf.e09b094146fa8089db511496d1e594f0.txt
+ create mode 100644 data/classify/train/labels/6_jpg.rf.c65f8918b1a22fc16245aea9df616f28.txt
+ create mode 100644 data/classify/train/labels/70_jpg.rf.0f4cfaa427d96306a671c26e7d8c6ec9.txt
+ create mode 100644 data/classify/train/labels/71_jpg.rf.c0fd0c517d653a646190abfbaaba1b3a.txt
+ create mode 100644 data/classify/train/labels/72_jpg.rf.2e307f42f2e661ed6f9f6ee99ce0c336.txt
+ create mode 100644 data/classify/train/labels/73_jpg.rf.0354b789ef76c3cd5011946495501e5e.txt
+ create mode 100644 data/classify/train/labels/73_jpg.rf.32902f3b9407e71a1ca5df450973f2eb.txt
+ create mode 100644 data/classify/train/labels/74_jpg.rf.6d064e3fa2e319518d42ff77706fd342.txt
+ create mode 100644 data/classify/train/labels/74_jpg.rf.c1e93bd213f510c61c934ad45b2e8351.txt
+ create mode 100644 data/classify/train/labels/75_jpg.rf.c1675beb9a3c6a56f892e280a9f43c88.txt
+ create mode 100644 data/classify/train/labels/76_jpg.rf.e6126c8a03143e12df95634a16f6eb76.txt
+ create mode 100644 data/classify/train/labels/77_jpg.rf.965d401c383858d57e47352664320ba6.txt
+ create mode 100644 data/classify/train/labels/78_jpg.rf.1a4a555d8392299c329b7bd7de900590.txt
+ create mode 100644 data/classify/train/labels/79_jpg.rf.6c3bf684a38e4da75b8d4f0f11c118c6.txt
+ create mode 100644 data/classify/train/labels/79_jpg.rf.8bc048966c4234a85340eb02c9c52b20.txt
+ create mode 100644 data/classify/train/labels/7_jpg.rf.1333e6adcb84cc0ad76e692942d178ef.txt
+ create mode 100644 data/classify/train/labels/80_jpg.rf.859cff63fca81afd4c4ea212ef7cfcb3.txt
+ create mode 100644 data/classify/train/labels/81_jpg.rf.e01e780ef7e0b93ceef6173a95e5bedc.txt
+ create mode 100644 data/classify/train/labels/82_jpg.rf.240a35f77433219ba36c484a95db3fa4.txt
+ create mode 100644 data/classify/train/labels/82_jpg.rf.9ff6aa8fea60b752d6faa3874d884c77.txt
+ create mode 100644 data/classify/train/labels/83_jpg.rf.8fe3f72ba65f592d1ba97792defa8c2e.txt
+ create mode 100644 data/classify/train/labels/84_jpg.rf.41464ce2d91b501120f9690d5e3257a0.txt
+ create mode 100644 data/classify/train/labels/86_jpg.rf.1846066abeadcd92d73d481b8ae4b62e.txt
+ create mode 100644 data/classify/train/labels/86_jpg.rf.f42aa0c727520112c4e37ff41f8acfe4.txt
+ create mode 100644 data/classify/train/labels/87_jpg.rf.768d87e2fb5157ed61368b404d709fa4.txt
+ create mode 100644 data/classify/train/labels/87_jpg.rf.9e9becb7e97bb8d6f2cefbfbd20149a4.txt
+ create mode 100644 data/classify/train/labels/88_jpg.rf.1e7c6605ea8e81c49b0e7e6d68a8cbb2.txt
+ create mode 100644 data/classify/train/labels/89_jpg.rf.2dd50506763769730f8a7e32c1de5652.txt
+ create mode 100644 data/classify/train/labels/8_jpg.rf.7d69d1a503609da87f62b4ab3bc865cf.txt
+ create mode 100644 data/classify/train/labels/90_jpg.rf.41d7b2c7f18efe87416ab40f9b606c43.txt
+ create mode 100644 data/classify/train/labels/91_jpg.rf.ebf9c3088948e179cf151d488e95a380.txt
+ create mode 100644 data/classify/train/labels/92_jpg.rf.d49f3514496663e0de36928e29afe326.txt
+ create mode 100644 data/classify/train/labels/93_jpg.rf.40e6e117373cbc6966535cabda525d0b.txt
+ create mode 100644 data/classify/train/labels/94_jpg.rf.9a2fef69c3b586147d74e94c6f6133fc.txt
+ create mode 100644 data/classify/train/labels/95_jpg.rf.e97c14a84c08b7c8b86cbaf268bcc8b6.txt
+ create mode 100644 data/classify/train/labels/97_jpg.rf.e7d305921e8aba9f5664f3d6e7bece50.txt
+ create mode 100644 data/classify/train/labels/99_jpg.rf.92887f1ae4b981cc45bfdedee6b56193.txt
+ create mode 100644 data/classify/train/labels/9_jpg.rf.b3be234330032ab595bc3f2071267829.txt
+ create mode 100644 data/classify/valid/images/106_jpg.rf.b8420d50d6666c8e297a92d9547fe0a2.jpg
+ create mode 100644 data/classify/valid/images/111_jpg.rf.243207b67150e93508e2c43ad1a6d113.jpg
+ create mode 100644 data/classify/valid/images/113_jpg.rf.478b520024902b68c4651f1f52f0f566.jpg
+ create mode 100644 data/classify/valid/images/115_jpg.rf.729936e527031df7b310c3646f7ec37a.jpg
+ create mode 100644 data/classify/valid/images/116_jpg.rf.9fc1cb27eb3ed540e3f4d3d20c44125b.jpg
+ create mode 100644 data/classify/valid/images/119_jpg.rf.6c79c7dec1d530bc1ce02ce4800b2fb5.jpg
+ create mode 100644 data/classify/valid/images/11_jpg.rf.cd52afba3bcdc7aaa06be0bfefc25f70.jpg
+ create mode 100644 data/classify/valid/images/124_jpg.rf.1f4318d97aa8490dbdfdd95302157036.jpg
+ create mode 100644 data/classify/valid/images/12_jpg.rf.7abcb253bbb0d7e7ea197953aa67814c.jpg
+ create mode 100644 data/classify/valid/images/140_jpg.rf.97880cdb9f8b962403c4ca98587142e3.jpg
+ create mode 100644 data/classify/valid/images/141_jpg.rf.0aee9841c8e372b6658466fe8d9aa909.jpg
+ create mode 100644 data/classify/valid/images/146_jpg.rf.63f01d32e7e3e2cc797aaf33408064cb.jpg
+ create mode 100644 data/classify/valid/images/149_jpg.rf.f47e31333c176c2578beec017012cf63.jpg
+ create mode 100644 data/classify/valid/images/14_jpg.rf.ec7a1ae4a4ae9ff1e45fdd71b66cbac3.jpg
+ create mode 100644 data/classify/valid/images/150_jpg.rf.f87830154fcbfa713048865e9640c8df.jpg
+ create mode 100644 data/classify/valid/images/162_jpg.rf.d8e86e3e05450b2d919429c762987d42.jpg
+ create mode 100644 data/classify/valid/images/166_jpg.rf.841330d3b9b52760abab39c843006c29.jpg
+ create mode 100644 data/classify/valid/images/176_jpg.rf.b790027167ba1bcf92bb534782a50649.jpg
+ create mode 100644 data/classify/valid/images/177_jpg.rf.ac1afe70f228b2158f93d7726a4c22f4.jpg
+ create mode 100644 data/classify/valid/images/18_jpg.rf.db399871b708176b33f59beff97e30c0.jpg
+ create mode 100644 data/classify/valid/images/192_jpg.rf.ca43975487eb11ae36f56fd3e5cb56f8.jpg
+ create mode 100644 data/classify/valid/images/196_jpg.rf.6002292d23d413336098b95f8a034550.jpg
+ create mode 100644 data/classify/valid/images/198_jpg.rf.cfccbd6a2651fe46bec40320ab9ecdcc.jpg
+ create mode 100644 data/classify/valid/images/199_jpg.rf.9a4332d58cc0c09b5c11291d4d732239.jpg
+ create mode 100644 data/classify/valid/images/19_jpg.rf.b2dbc4be8d8c605ff665dab51f0fc908.jpg
+ create mode 100644 data/classify/valid/images/205_jpg.rf.d07df54b26f31d836a6f92bebc87cbf7.jpg
+ create mode 100644 data/classify/valid/images/207_jpg.rf.7a61d655b0eb62b1f80e4c45a597509b.jpg
+ create mode 100644 data/classify/valid/images/208_jpg.rf.0fb4b220a7754cb486747b036afe6a10.jpg
+ create mode 100644 data/classify/valid/images/210_jpg.rf.063c479584b535fd88b33c5cff134b6f.jpg
+ create mode 100644 data/classify/valid/images/216_jpg.rf.a9cae34750cd9193bac29c7be6d01d38.jpg
+ create mode 100644 data/classify/valid/images/218_jpg.rf.72b44f3e3cc56430d6c1ded96b74306d.jpg
+ create mode 100644 data/classify/valid/images/222_jpg.rf.23a5e585b5cd0ffe1c695461e8301501.jpg
+ create mode 100644 data/classify/valid/images/225_jpg.rf.bfdaa1ddf1f50727cccce461cdcc5962.jpg
+ create mode 100644 data/classify/valid/images/242_jpg.rf.1cb79ad626c5b996babdc3b75c8f9557.jpg
+ create mode 100644 data/classify/valid/images/246_jpg.rf.9aeadc3c34f4059b20faaadfdae9fe83.jpg
+ create mode 100644 data/classify/valid/images/249_jpg.rf.2a4fa1d5255f9916c576a1d595e376a1.jpg
+ create mode 100644 data/classify/valid/images/24_jpg.rf.95d61adc5674ccb01502ba37fe24c121.jpg
+ create mode 100644 data/classify/valid/images/260_jpg.rf.acab9edd570c219eb9c4119680146f6b.jpg
+ create mode 100644 data/classify/valid/images/262_jpg.rf.8a11ff359a9c194ccc13002c523a34ba.jpg
+ create mode 100644 data/classify/valid/images/266_jpg.rf.9487d54852a91c43549344f1d1c8cc76.jpg
+ create mode 100644 data/classify/valid/images/267_jpg.rf.d332c8dcca6289f4f019c00f64a3f0b1.jpg
+ create mode 100644 data/classify/valid/images/269_jpg.rf.d168abd405c3a0e62c60282cb5c7f106.jpg
+ create mode 100644 data/classify/valid/images/272_jpg.rf.7414f1ada2b6ed28d506a53b23f38030.jpg
+ create mode 100644 data/classify/valid/images/276_jpg.rf.9f09dcaa3bf678a8fc216634759c91e0.jpg
+ create mode 100644 data/classify/valid/images/279_jpg.rf.1ba3155629819c8aae516e52f1ac8fb7.jpg
+ create mode 100644 data/classify/valid/images/284_jpg.rf.2f1abe0260387c493931f00113b94cb6.jpg
+ create mode 100644 data/classify/valid/images/286_jpg.rf.86fdbb1c17e340beb924383cfe89e7b9.jpg
+ create mode 100644 data/classify/valid/images/297_jpg.rf.cbd0d6257baca998b206c720375383c2.jpg
+ create mode 100644 data/classify/valid/images/299_jpg.rf.cf432cf9daf388325edda7d9f8afc09d.jpg
+ create mode 100644 data/classify/valid/images/29_jpg.rf.1b2ddab31694ad7c8feb4807ec256ce6.jpg
+ create mode 100644 data/classify/valid/images/2_jpg.rf.2c98d80b681edcf446b707db66799f14.jpg
+ create mode 100644 data/classify/valid/images/2_jpg.rf.d236b91614daf66fe779aefa4422ebfd.jpg
+ create mode 100644 data/classify/valid/images/307_jpg.rf.f0905e628b367aa94e98c9ba3365f295.jpg
+ create mode 100644 data/classify/valid/images/30_jpg.rf.0d7ce67ce3001714c1ff48a47a1c7b71.jpg
+ create mode 100644 data/classify/valid/images/316_jpg.rf.25ea83eec4f93823a9f3551ffadc2a1b.jpg
+ create mode 100644 data/classify/valid/images/320_jpg.rf.1f04aa17c842be6023fcbfe0fca4eab7.jpg
+ create mode 100644 data/classify/valid/images/326_jpg.rf.9c21b6629178f7554cdc693caa2ab05b.jpg
+ create mode 100644 data/classify/valid/images/333_jpg.rf.8fc953b3ad435b0bada73e200ea98855.jpg
+ create mode 100644 data/classify/valid/images/336_jpg.rf.8eae884b0474c50585b9c4d12e118f9f.jpg
+ create mode 100644 data/classify/valid/images/33_jpg.rf.2f91bfc24d575bb45d058090005d713a.jpg
+ create mode 100644 data/classify/valid/images/45_jpg.rf.362293448043f4051cd733094bc8a842.jpg
+ create mode 100644 data/classify/valid/images/46_jpg.rf.dfeb5089f4bd2e812d317065babb66d8.jpg
+ create mode 100644 data/classify/valid/images/4_jpg.rf.ce41198e408bf113eedcb3faab30760f.jpg
+ create mode 100644 data/classify/valid/images/53_jpg.rf.4389ba965594085d3a40e7150d92c4f0.jpg
+ create mode 100644 data/classify/valid/images/54_jpg.rf.5af9f27b58df6dda40319c4521222299.jpg
+ create mode 100644 data/classify/valid/images/55_jpg.rf.358b9a5a6cf0a129529ce6cd9924bd26.jpg
+ create mode 100644 data/classify/valid/images/65_jpg.rf.92fade2f5a5e61ae9a06503569b3267d.jpg
+ create mode 100644 data/classify/valid/images/65_jpg.rf.b84b8d07b761cbc26c60bb6ca117cedd.jpg
+ create mode 100644 data/classify/valid/images/66_jpg.rf.571ea5b07d6ae8bc45e8e7e8872a553b.jpg
+ create mode 100644 data/classify/valid/images/66_jpg.rf.e7b6b06ff690b70c88f57b3dec6b9685.jpg
+ create mode 100644 data/classify/valid/images/67_jpg.rf.0984578b34c0481ed7a7c14c9054a1d2.jpg
+ create mode 100644 data/classify/valid/images/68_jpg.rf.4ef5a3bb93e40fdc7aea9bbafbb3f576.jpg
+ create mode 100644 data/classify/valid/images/6_jpg.rf.101ee979825f593d729a21d06a686ccf.jpg
+ create mode 100644 data/classify/valid/images/70_jpg.rf.ee82569d6fd12f7da3e76047b681a049.jpg
+ create mode 100644 data/classify/valid/images/71_jpg.rf.0150c4f45806d7c3e2aa6fc976f3b6fe.jpg
+ create mode 100644 data/classify/valid/images/72_jpg.rf.b5f656923e8c9fdd690300ddc878d755.jpg
+ create mode 100644 data/classify/valid/images/75_jpg.rf.8940eb3a515aa2f58ccc1fd014f01aa7.jpg
+ create mode 100644 data/classify/valid/images/76_jpg.rf.ef28bd484f2c3b83e9d4a553d6e6845c.jpg
+ create mode 100644 data/classify/valid/images/7_jpg.rf.8fae310f850879a12ec660ffe3100178.jpg
+ create mode 100644 data/classify/valid/images/83_jpg.rf.c8a060e75e0ce8d19533bb8a38bf68bf.jpg
+ create mode 100644 data/classify/valid/images/85_jpg.rf.2b4cb710858534e38898afad0ea237b1.jpg
+ create mode 100644 data/classify/valid/images/85_jpg.rf.bbc28c62ad62972709651d08c4b4ec1a.jpg
+ create mode 100644 data/classify/valid/images/98_jpg.rf.0191d1b4d5ca231a90f4503ef741eddb.jpg
+ create mode 100644 data/classify/valid/labels.cache
+ create mode 100644 data/classify/valid/labels/106_jpg.rf.b8420d50d6666c8e297a92d9547fe0a2.txt
+ create mode 100644 data/classify/valid/labels/111_jpg.rf.243207b67150e93508e2c43ad1a6d113.txt
+ create mode 100644 data/classify/valid/labels/113_jpg.rf.478b520024902b68c4651f1f52f0f566.txt
+ create mode 100644 data/classify/valid/labels/115_jpg.rf.729936e527031df7b310c3646f7ec37a.txt
+ create mode 100644 data/classify/valid/labels/116_jpg.rf.9fc1cb27eb3ed540e3f4d3d20c44125b.txt
+ create mode 100644 data/classify/valid/labels/119_jpg.rf.6c79c7dec1d530bc1ce02ce4800b2fb5.txt
+ create mode 100644 data/classify/valid/labels/11_jpg.rf.cd52afba3bcdc7aaa06be0bfefc25f70.txt
+ create mode 100644 data/classify/valid/labels/124_jpg.rf.1f4318d97aa8490dbdfdd95302157036.txt
+ create mode 100644 data/classify/valid/labels/12_jpg.rf.7abcb253bbb0d7e7ea197953aa67814c.txt
+ create mode 100644 data/classify/valid/labels/140_jpg.rf.97880cdb9f8b962403c4ca98587142e3.txt
+ create mode 100644 data/classify/valid/labels/141_jpg.rf.0aee9841c8e372b6658466fe8d9aa909.txt
+ create mode 100644 data/classify/valid/labels/146_jpg.rf.63f01d32e7e3e2cc797aaf33408064cb.txt
+ create mode 100644 data/classify/valid/labels/149_jpg.rf.f47e31333c176c2578beec017012cf63.txt
+ create mode 100644 data/classify/valid/labels/14_jpg.rf.ec7a1ae4a4ae9ff1e45fdd71b66cbac3.txt
+ create mode 100644 data/classify/valid/labels/150_jpg.rf.f87830154fcbfa713048865e9640c8df.txt
+ create mode 100644 data/classify/valid/labels/162_jpg.rf.d8e86e3e05450b2d919429c762987d42.txt
+ create mode 100644 data/classify/valid/labels/166_jpg.rf.841330d3b9b52760abab39c843006c29.txt
+ create mode 100644 data/classify/valid/labels/176_jpg.rf.b790027167ba1bcf92bb534782a50649.txt
+ create mode 100644 data/classify/valid/labels/177_jpg.rf.ac1afe70f228b2158f93d7726a4c22f4.txt
+ create mode 100644 data/classify/valid/labels/18_jpg.rf.db399871b708176b33f59beff97e30c0.txt
+ create mode 100644 data/classify/valid/labels/192_jpg.rf.ca43975487eb11ae36f56fd3e5cb56f8.txt
+ create mode 100644 data/classify/valid/labels/196_jpg.rf.6002292d23d413336098b95f8a034550.txt
+ create mode 100644 data/classify/valid/labels/198_jpg.rf.cfccbd6a2651fe46bec40320ab9ecdcc.txt
+ create mode 100644 data/classify/valid/labels/199_jpg.rf.9a4332d58cc0c09b5c11291d4d732239.txt
+ create mode 100644 data/classify/valid/labels/19_jpg.rf.b2dbc4be8d8c605ff665dab51f0fc908.txt
+ create mode 100644 data/classify/valid/labels/205_jpg.rf.d07df54b26f31d836a6f92bebc87cbf7.txt
+ create mode 100644 data/classify/valid/labels/207_jpg.rf.7a61d655b0eb62b1f80e4c45a597509b.txt
+ create mode 100644 data/classify/valid/labels/208_jpg.rf.0fb4b220a7754cb486747b036afe6a10.txt
+ create mode 100644 data/classify/valid/labels/210_jpg.rf.063c479584b535fd88b33c5cff134b6f.txt
+ create mode 100644 data/classify/valid/labels/216_jpg.rf.a9cae34750cd9193bac29c7be6d01d38.txt
+ create mode 100644 data/classify/valid/labels/218_jpg.rf.72b44f3e3cc56430d6c1ded96b74306d.txt
+ create mode 100644 data/classify/valid/labels/222_jpg.rf.23a5e585b5cd0ffe1c695461e8301501.txt
+ create mode 100644 data/classify/valid/labels/225_jpg.rf.bfdaa1ddf1f50727cccce461cdcc5962.txt
+ create mode 100644 data/classify/valid/labels/242_jpg.rf.1cb79ad626c5b996babdc3b75c8f9557.txt
+ create mode 100644 data/classify/valid/labels/246_jpg.rf.9aeadc3c34f4059b20faaadfdae9fe83.txt
+ create mode 100644 data/classify/valid/labels/249_jpg.rf.2a4fa1d5255f9916c576a1d595e376a1.txt
+ create mode 100644 data/classify/valid/labels/24_jpg.rf.95d61adc5674ccb01502ba37fe24c121.txt
+ create mode 100644 data/classify/valid/labels/260_jpg.rf.acab9edd570c219eb9c4119680146f6b.txt
+ create mode 100644 data/classify/valid/labels/262_jpg.rf.8a11ff359a9c194ccc13002c523a34ba.txt
+ create mode 100644 data/classify/valid/labels/266_jpg.rf.9487d54852a91c43549344f1d1c8cc76.txt
+ create mode 100644 data/classify/valid/labels/267_jpg.rf.d332c8dcca6289f4f019c00f64a3f0b1.txt
+ create mode 100644 data/classify/valid/labels/269_jpg.rf.d168abd405c3a0e62c60282cb5c7f106.txt
+ create mode 100644 data/classify/valid/labels/272_jpg.rf.7414f1ada2b6ed28d506a53b23f38030.txt
+ create mode 100644 data/classify/valid/labels/276_jpg.rf.9f09dcaa3bf678a8fc216634759c91e0.txt
+ create mode 100644 data/classify/valid/labels/279_jpg.rf.1ba3155629819c8aae516e52f1ac8fb7.txt
+ create mode 100644 data/classify/valid/labels/284_jpg.rf.2f1abe0260387c493931f00113b94cb6.txt
+ create mode 100644 data/classify/valid/labels/286_jpg.rf.86fdbb1c17e340beb924383cfe89e7b9.txt
+ create mode 100644 data/classify/valid/labels/297_jpg.rf.cbd0d6257baca998b206c720375383c2.txt
+ create mode 100644 data/classify/valid/labels/299_jpg.rf.cf432cf9daf388325edda7d9f8afc09d.txt
+ create mode 100644 data/classify/valid/labels/29_jpg.rf.1b2ddab31694ad7c8feb4807ec256ce6.txt
+ create mode 100644 data/classify/valid/labels/2_jpg.rf.2c98d80b681edcf446b707db66799f14.txt
+ create mode 100644 data/classify/valid/labels/2_jpg.rf.d236b91614daf66fe779aefa4422ebfd.txt
+ create mode 100644 data/classify/valid/labels/307_jpg.rf.f0905e628b367aa94e98c9ba3365f295.txt
+ create mode 100644 data/classify/valid/labels/30_jpg.rf.0d7ce67ce3001714c1ff48a47a1c7b71.txt
+ create mode 100644 data/classify/valid/labels/316_jpg.rf.25ea83eec4f93823a9f3551ffadc2a1b.txt
+ create mode 100644 data/classify/valid/labels/320_jpg.rf.1f04aa17c842be6023fcbfe0fca4eab7.txt
+ create mode 100644 data/classify/valid/labels/326_jpg.rf.9c21b6629178f7554cdc693caa2ab05b.txt
+ create mode 100644 data/classify/valid/labels/333_jpg.rf.8fc953b3ad435b0bada73e200ea98855.txt
+ create mode 100644 data/classify/valid/labels/336_jpg.rf.8eae884b0474c50585b9c4d12e118f9f.txt
+ create mode 100644 data/classify/valid/labels/33_jpg.rf.2f91bfc24d575bb45d058090005d713a.txt
+ create mode 100644 data/classify/valid/labels/45_jpg.rf.362293448043f4051cd733094bc8a842.txt
+ create mode 100644 data/classify/valid/labels/46_jpg.rf.dfeb5089f4bd2e812d317065babb66d8.txt
+ create mode 100644 data/classify/valid/labels/4_jpg.rf.ce41198e408bf113eedcb3faab30760f.txt
+ create mode 100644 data/classify/valid/labels/53_jpg.rf.4389ba965594085d3a40e7150d92c4f0.txt
+ create mode 100644 data/classify/valid/labels/54_jpg.rf.5af9f27b58df6dda40319c4521222299.txt
+ create mode 100644 data/classify/valid/labels/55_jpg.rf.358b9a5a6cf0a129529ce6cd9924bd26.txt
+ create mode 100644 data/classify/valid/labels/65_jpg.rf.92fade2f5a5e61ae9a06503569b3267d.txt
+ create mode 100644 data/classify/valid/labels/65_jpg.rf.b84b8d07b761cbc26c60bb6ca117cedd.txt
+ create mode 100644 data/classify/valid/labels/66_jpg.rf.571ea5b07d6ae8bc45e8e7e8872a553b.txt
+ create mode 100644 data/classify/valid/labels/66_jpg.rf.e7b6b06ff690b70c88f57b3dec6b9685.txt
+ create mode 100644 data/classify/valid/labels/67_jpg.rf.0984578b34c0481ed7a7c14c9054a1d2.txt
+ create mode 100644 data/classify/valid/labels/68_jpg.rf.4ef5a3bb93e40fdc7aea9bbafbb3f576.txt
+ create mode 100644 data/classify/valid/labels/6_jpg.rf.101ee979825f593d729a21d06a686ccf.txt
+ create mode 100644 data/classify/valid/labels/70_jpg.rf.ee82569d6fd12f7da3e76047b681a049.txt
+ create mode 100644 data/classify/valid/labels/71_jpg.rf.0150c4f45806d7c3e2aa6fc976f3b6fe.txt
+ create mode 100644 data/classify/valid/labels/72_jpg.rf.b5f656923e8c9fdd690300ddc878d755.txt
+ create mode 100644 data/classify/valid/labels/75_jpg.rf.8940eb3a515aa2f58ccc1fd014f01aa7.txt
+ create mode 100644 data/classify/valid/labels/76_jpg.rf.ef28bd484f2c3b83e9d4a553d6e6845c.txt
+ create mode 100644 data/classify/valid/labels/7_jpg.rf.8fae310f850879a12ec660ffe3100178.txt
+ create mode 100644 data/classify/valid/labels/83_jpg.rf.c8a060e75e0ce8d19533bb8a38bf68bf.txt
+ create mode 100644 data/classify/valid/labels/85_jpg.rf.2b4cb710858534e38898afad0ea237b1.txt
+ create mode 100644 data/classify/valid/labels/85_jpg.rf.bbc28c62ad62972709651d08c4b4ec1a.txt
+ create mode 100644 data/classify/valid/labels/98_jpg.rf.0191d1b4d5ca231a90f4503ef741eddb.txt
+ create mode 100644 notebooks/.ipynb_checkpoints/classify-checkpoint.ipynb
+ create mode 100644 notebooks/classify.ipynb
+ create mode 100644 notebooks/runs/detect/train35/F1_curve.png
+ create mode 100644 notebooks/runs/detect/train35/PR_curve.png
+ create mode 100644 notebooks/runs/detect/train35/P_curve.png
+ create mode 100644 notebooks/runs/detect/train35/R_curve.png
+ create mode 100644 notebooks/runs/detect/train35/args.yaml
+ create mode 100644 notebooks/runs/detect/train35/confusion_matrix.png
+ create mode 100644 notebooks/runs/detect/train35/confusion_matrix_normalized.png
+ create mode 100644 notebooks/runs/detect/train35/labels.jpg
+ create mode 100644 notebooks/runs/detect/train35/labels_correlogram.jpg
+ create mode 100644 notebooks/runs/detect/train35/results.csv
+ create mode 100644 notebooks/runs/detect/train35/results.png
+ create mode 100644 notebooks/runs/detect/train35/train_batch0.jpg
+ create mode 100644 notebooks/runs/detect/train35/train_batch1.jpg
+ create mode 100644 notebooks/runs/detect/train35/train_batch1710.jpg
+ create mode 100644 notebooks/runs/detect/train35/train_batch1711.jpg
+ create mode 100644 notebooks/runs/detect/train35/train_batch1712.jpg
+ create mode 100644 notebooks/runs/detect/train35/train_batch2.jpg
+ create mode 100644 notebooks/runs/detect/train35/val_batch0_labels.jpg
+ create mode 100644 notebooks/runs/detect/train35/val_batch0_pred.jpg
+ create mode 100644 notebooks/runs/detect/train35/val_batch1_labels.jpg
+ create mode 100644 notebooks/runs/detect/train35/val_batch1_pred.jpg
+ create mode 100644 notebooks/runs/detect/train35/val_batch2_labels.jpg
+ create mode 100644 notebooks/runs/detect/train35/val_batch2_pred.jpg
+ create mode 100644 notebooks/runs/detect/train35/weights/best.pt
+ create mode 100644 notebooks/runs/detect/train35/weights/last.pt
+ create mode 100644 notebooks/runs/detect/train352/F1_curve.png
+ create mode 100644 notebooks/runs/detect/train352/PR_curve.png
+ create mode 100644 notebooks/runs/detect/train352/P_curve.png
+ create mode 100644 notebooks/runs/detect/train352/R_curve.png
+ create mode 100644 notebooks/runs/detect/train352/confusion_matrix.png
+ create mode 100644 notebooks/runs/detect/train352/confusion_matrix_normalized.png
+ create mode 100644 notebooks/runs/detect/train352/val_batch0_labels.jpg
+ create mode 100644 notebooks/runs/detect/train352/val_batch0_pred.jpg
+ create mode 100644 notebooks/runs/detect/train352/val_batch1_labels.jpg
+ create mode 100644 notebooks/runs/detect/train352/val_batch1_pred.jpg
+ create mode 100644 notebooks/runs/detect/train352/val_batch2_labels.jpg
+ create mode 100644 notebooks/runs/detect/train352/val_batch2_pred.jpg
+ create mode 100644 notebooks/runs/detect/train36/F1_curve.png
+ create mode 100644 notebooks/runs/detect/train36/PR_curve.png
+ create mode 100644 notebooks/runs/detect/train36/P_curve.png
+ create mode 100644 notebooks/runs/detect/train36/R_curve.png
+ create mode 100644 notebooks/runs/detect/train36/args.yaml
+ create mode 100644 notebooks/runs/detect/train36/confusion_matrix.png
+ create mode 100644 notebooks/runs/detect/train36/confusion_matrix_normalized.png
+ create mode 100644 notebooks/runs/detect/train36/labels.jpg
+ create mode 100644 notebooks/runs/detect/train36/labels_correlogram.jpg
+ create mode 100644 notebooks/runs/detect/train36/results.csv
+ create mode 100644 notebooks/runs/detect/train36/results.png
+ create mode 100644 notebooks/runs/detect/train36/train_batch0.jpg
+ create mode 100644 notebooks/runs/detect/train36/train_batch1.jpg
+ create mode 100644 notebooks/runs/detect/train36/train_batch1710.jpg
+ create mode 100644 notebooks/runs/detect/train36/train_batch1711.jpg
+ create mode 100644 notebooks/runs/detect/train36/train_batch1712.jpg
+ create mode 100644 notebooks/runs/detect/train36/train_batch2.jpg
+ create mode 100644 notebooks/runs/detect/train36/val_batch0_labels.jpg
+ create mode 100644 notebooks/runs/detect/train36/val_batch0_pred.jpg
+ create mode 100644 notebooks/runs/detect/train36/val_batch1_labels.jpg
+ create mode 100644 notebooks/runs/detect/train36/val_batch1_pred.jpg
+ create mode 100644 notebooks/runs/detect/train36/val_batch2_labels.jpg
+ create mode 100644 notebooks/runs/detect/train36/val_batch2_pred.jpg
+ create mode 100644 notebooks/runs/detect/train36/weights/best.pt
+ create mode 100644 notebooks/runs/detect/train36/weights/last.pt
+ create mode 100644 notebooks/runs/detect/train362/F1_curve.png
+ create mode 100644 notebooks/runs/detect/train362/PR_curve.png
+ create mode 100644 notebooks/runs/detect/train362/P_curve.png
+ create mode 100644 notebooks/runs/detect/train362/R_curve.png
+ create mode 100644 notebooks/runs/detect/train362/confusion_matrix.png
+ create mode 100644 notebooks/runs/detect/train362/confusion_matrix_normalized.png
+ create mode 100644 notebooks/runs/detect/train362/val_batch0_labels.jpg
+ create mode 100644 notebooks/runs/detect/train362/val_batch0_pred.jpg
+ create mode 100644 notebooks/runs/detect/train362/val_batch1_labels.jpg
+ create mode 100644 notebooks/runs/detect/train362/val_batch1_pred.jpg
+ create mode 100644 notebooks/runs/detect/train362/val_batch2_labels.jpg
+ create mode 100644 notebooks/runs/detect/train362/val_batch2_pred.jpg
+ create mode 100644 notebooks/runs/detect/train37/F1_curve.png
+ create mode 100644 notebooks/runs/detect/train37/PR_curve.png
+ create mode 100644 notebooks/runs/detect/train37/P_curve.png
+ create mode 100644 notebooks/runs/detect/train37/R_curve.png
+ create mode 100644 notebooks/runs/detect/train37/args.yaml
+ create mode 100644 notebooks/runs/detect/train37/confusion_matrix.png
+ create mode 100644 notebooks/runs/detect/train37/confusion_matrix_normalized.png
+ create mode 100644 notebooks/runs/detect/train37/labels.jpg
+ create mode 100644 notebooks/runs/detect/train37/labels_correlogram.jpg
+ create mode 100644 notebooks/runs/detect/train37/results.csv
+ create mode 100644 notebooks/runs/detect/train37/results.png
+ create mode 100644 notebooks/runs/detect/train37/train_batch0.jpg
+ create mode 100644 notebooks/runs/detect/train37/train_batch1.jpg
+ create mode 100644 notebooks/runs/detect/train37/train_batch2.jpg
+ create mode 100644 notebooks/runs/detect/train37/val_batch0_labels.jpg
+ create mode 100644 notebooks/runs/detect/train37/val_batch0_pred.jpg
+ create mode 100644 notebooks/runs/detect/train37/val_batch1_labels.jpg
+ create mode 100644 notebooks/runs/detect/train37/val_batch1_pred.jpg
+ create mode 100644 notebooks/runs/detect/train37/val_batch2_labels.jpg
+ create mode 100644 notebooks/runs/detect/train37/val_batch2_pred.jpg
+ create mode 100644 notebooks/runs/detect/train37/weights/best.pt
+ create mode 100644 notebooks/runs/detect/train37/weights/last.pt
+ create mode 100644 notebooks/runs/detect/train372/F1_curve.png
+ create mode 100644 notebooks/runs/detect/train372/PR_curve.png
+ create mode 100644 notebooks/runs/detect/train372/P_curve.png
+ create mode 100644 notebooks/runs/detect/train372/R_curve.png
+ create mode 100644 notebooks/runs/detect/train372/confusion_matrix.png
+ create mode 100644 notebooks/runs/detect/train372/confusion_matrix_normalized.png
+ create mode 100644 notebooks/runs/detect/train372/val_batch0_labels.jpg
+ create mode 100644 notebooks/runs/detect/train372/val_batch0_pred.jpg
+ create mode 100644 notebooks/runs/detect/train372/val_batch1_labels.jpg
+ create mode 100644 notebooks/runs/detect/train372/val_batch1_pred.jpg
+ create mode 100644 notebooks/runs/detect/train372/val_batch2_labels.jpg
+ create mode 100644 notebooks/runs/detect/train372/val_batch2_pred.jpg
+ create mode 100644 notebooks/yolo11n.pt
+ create mode 100644 notebooks/yolov8m.pt
+ create mode 100644 notebooks/yolov8n.pt
+ create mode 100644 requirements.txt
+
+muhab@MuhAbriYansyah MINGW64 /e/Project/0_Apple Color Classification (main)
+$ git branch -M main
+
+muhab@MuhAbriYansyah MINGW64 /e/Project/0_Apple Color Classification (main)
+$ git remote add origin https://github.com/abriyansyah05/Apple-Color-Detection.git
+error: remote origin already exists.
+
+muhab@MuhAbriYansyah MINGW64 /e/Project/0_Apple Color Classification (main)
+$ git remote -v
+origin  https://github.com/abriyansyah05/Apple-Color-Detection.git (fetch)
+origin  https://github.com/abriyansyah05/Apple-Color-Detection.git (push)
+
+muhab@MuhAbriYansyah MINGW64 /e/Project/0_Apple Color Classification (main)
+$ git push -u origin main
+Uploading LFS objects: 100% (9/9), 193 MB | 2.0 MB/s, done.
+To https://github.com/abriyansyah05/Apple-Color-Detection.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/abriyansyah05/Apple-Color-Detection.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+muhab@MuhAbriYansyah MINGW64 /e/Project/0_Apple Color Classification (main)
+$ git pull
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 12 (delta 2), reused 2 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (12/12), 4.57 KiB | 668.00 KiB/s, done.
+From https://github.com/abriyansyah05/Apple-Color-Detection
+ * [new branch]      main       -> origin/main
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> main
+
+
+muhab@MuhAbriYansyah MINGW64 /e/Project/0_Apple Color Classification (main)
+$ git push --force origin main
+Uploading LFS objects: 100% (9/9), 193 MB | 0 B/s, done.
+Enumerating objects: 996, done.
+Counting objects: 100% (996/996), done.
+Delta compression using up to 28 threads
+Compressing objects: 100% (988/988), done.
+Writing objects: 100% (996/996), 12.00 MiB | 2.30 MiB/s, done.
+Total 996 (delta 8), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (8/8), done.
+To https://github.com/abriyansyah05/Apple-Color-Detection.git
+ + d0f84e0...9e25845 main -> main (forced update)
+
+muhab@MuhAbriYansyah MINGW64 /e/Project/0_Apple Color Classification (main)
+$
