@@ -1,0 +1,13 @@
+train: /0_Apple Color Classification/data/classify/train/images
+val: /0_Apple Color Classification/data/classify//valid/images
+test: /0_Apple Color Classification/data/classify//test/images
+
+nc: 3
+names: ['green', 'red', 'yellow']
+
+roboflow:
+  workspace: nn-2ju5u
+  project: apple_maturity-1ayzw
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nn-2ju5u/apple_maturity-1ayzw/dataset/1
